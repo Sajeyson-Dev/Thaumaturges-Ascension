@@ -3,7 +3,7 @@
 - At level 70 ability to fight Goldorth.
 
 §3Getting Foraging XP:
-- The player will earn XP when they get a random resource from the mined stone.
+- Finding a random resource from mined stone will give you XP.
 
 §3Item §r- §2Level §r- §6XP:
 
