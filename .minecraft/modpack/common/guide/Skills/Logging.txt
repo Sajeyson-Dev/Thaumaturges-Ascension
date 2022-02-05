@@ -1,0 +1,20 @@
+§3Ability:
+- Obtaining rare items (mainly essences) by cutting down trees.
+
+§3Getting Logging XP:
+- Simply getting one of the items (see below) by chopping down trees will give you Logging experience.
+
+§6Items - §2Level - §3XP:
+
+§6Apple x4 §r- §21 §r- §315
+§6Weak Essence x16 §r- §21 §r- §315
+§6Molten Essence x16 §r- §210 §r- §325
+§6Bottle o' Enchanting x3 §r- §220 §r- §340
+§6Charged Essence x16 §r- §230 §r- §375
+§6Ominous Essence x16 §r- §240 §r- §3125
+§6Luminate Essence x16 §r- §250 §r- §3200
+§6Ancient Essence x(16-32) §r- §260 §r- §3400
+§6Dark Essence x(16-32) §r- §270 §r- §3800
+§6Ethereal Essence x(16-32) §r- §280 §r- §31600
+§6Gold Coin x(4-8) §r- §290 §r- §34000
+§6Divine Essence x(16-32) §r- §295 §r- §310000

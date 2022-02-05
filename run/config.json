@@ -1,0 +1,9 @@
+{
+    "mmc_path": "",
+    "log_type": null,
+    "folders_to_remove" : [
+        "backups",
+        "journeymap/data",
+        "logs"
+    ]
+}

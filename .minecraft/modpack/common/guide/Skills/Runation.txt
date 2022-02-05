@@ -1,0 +1,23 @@
+§3Ability:
+- Crating runes.
+
+§3Getting Runation XP:
+- Runation skill can be trained by creating misc runes by right-clicking on the Rune Shrine locatedwith a uncharged or charged (depends on rune you need to create) Rune in your inventory.
+- All runes, except the Wind Rune, only can be created in dimension-specific rune shrines (structure), see below...  To create wind runes, you only need a rune shrine (block), which can be crafted.
+
+§6Rune Type §r- Shrine Location - §2Rune Type Required §r- §3Level §r- XP:
+
+§6Wind §r- None §r- §2Unpowered §r- §31 §r- 2 (4 at lvl 40)
+§6Fire §r- The Nether §r- §2Unpowered §r- §38 §r- 3 (6 at lvl 55)
+§6Water §r- L'Borean §r- §2Unpowered §r- §315 §r- 4 (8 at lvl 65)
+§6Poison §r- Vox Ponds §r- §2Unpowered §r- §322 §r- 6 (12 at lvl 75)
+§6Wither §r- The Abyss §r- §2Unpowered §r- §330 §r- 7 (14 at lvl 85)
+§6Lunar §r- Lunalus §r- §2Charged §r- §332 §r- 9 (18 at lvl 90)
+§6Energy §r- Iromine §r- §2Unpowered §r- §336 §r- 10 (20 at lvl 95)
+§6Strike §r- The Haven §r- §2Unpowered §r- §342 §r- 11
+§6Storm §r- Greckon §r- §2Charged §r- §349 §r- 13
+§6Kinetic §r- Gardencia §r- §2Charged §r- §354 §r- 15
+§6Power §r- Barathos §r- §2Unpowered §r- §359 §r- 16
+§6Compass §r- Celeve §r- §2Charged §r- §363 §r- 17
+§6Distortion §r- Mysterium §r- §2Charged §r- §365 §r- 17
+§6Life §r- Precasia §r- §2Charged §r- §372 §r- 20

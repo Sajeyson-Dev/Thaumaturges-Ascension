@@ -1,0 +1,39 @@
+§3Ability:
+- Opportunity to obtain resources when mining stone.
+- At level 70 ability to fight Goldorth.
+
+§3Getting Foraging XP:
+- The player will earn XP when they get a random resource from the mined stone.
+
+§3Item §r- §2Level §r- §6XP:
+
+§3Coal x3 §r- §21 §r- §620
+§3Gold Nugget x1 §r- §21 §r- §620
+§3Weak Essence x16 §r- §25 §r- §630
+§3Molten Essence x16 §r- §210 §r- §660
+§3Diamond x1 §r- §215 §r- §6100
+§3Gunpowder x16 §r- §220 §r- §6150
+§3Charged Essence x16 §r- §225 §r- §6270
+§3Ominous Essence x16 §r- §230 §r- §6400
+§3Ender Pearl x4 §r- §235 §r- §6650
+§3Empowered Essence x16 §r- §240 §r- §6850
+§3Bottle o' Enchanting x8 §r- §250 §r- §61000
+§3Iromine Realmstone x2 §r- §255 §r- §61500
+§3Luminate Essence x16 §r- §260 §r- §62250
+§3Jade x2 §r- §265 §r- §63550 §r(Overworld §r- Stone§r)
+§3Bloodstone x4 §r- §265 §r- §63550 §r(Abyss §r- Abyssal Stone§r)
+§3Mystite Ingot x2 §r- §265 §r- §63550 §r(Mysterium §r- Mysterium Stone§r)
+§3Lyon Ingot x1 §r- §265 §r- §63550 §r(Iromine §r- Iromine Stone§r)
+§3Deep Case x1 §r- §265 §r- §63550 §r(Deeplands §r- Deep Rock§r)
+§3Skeletal Ingot x1 §r- §265 §r- §63550 §r(Precasia §r- Low Precasia Stone§r)
+§3Ghastly Ingot x2 §r- §265 §r- §63550 §r(Greckon §r- Greckon Stone§r)
+§3Baronyte Ingot x1 §r- §265 §r- §63550 §r(Barathos §r- Baron Stone§r)
+§3Blazium Ingot x1 §r- §265 §r- §63550 §r(Barathos §r- Barathos Hellstone§r)
+§3Blue Crystals x4 §r- §265 §r- §63550 §r(Crystevia §r- Crystevia Rock§r)
+§3Gold Coin x3 §r- §270 §r- §64000
+§3Ancient Essence x16 §r- §275 §r- §67200
+§3Dark Essence x16 §r- §280 §r- §69400
+§3Rosite Ingot x1 §r- §285 §r- §612650
+§3Ethereal Essence x16 §r- §288 §r- §617900
+§3Lunaver Coin x1 §r- §290 §r- §622000
+§3Divine Essence x16 §r- §295 §r- §630500

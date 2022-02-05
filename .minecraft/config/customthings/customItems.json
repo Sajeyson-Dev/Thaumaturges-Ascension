@@ -1,0 +1,16 @@
+{"data":
+	[
+		{
+			"name": "tiny_coal",
+			"oreDictNames": ["nuggetCoal"],
+			"maxStackSize": "64",
+			"burnTime": 200
+		},
+		{
+			"name": "tiny_charcoal",
+			"oreDictNames": ["nuggetCharcoal"],
+			"maxStackSize": "64",
+			"burnTime": 200
+		}
+	]
+}

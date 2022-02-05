@@ -1,0 +1,2 @@
+Resource that allows the player to summon minions.
+Creation can be restored using Tablet of Creation and increased from 10 to 16 by leveling up Augury skill.

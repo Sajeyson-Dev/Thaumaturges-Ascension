@@ -1,0 +1,2 @@
+The Battle Rage allows the player to do a critical hit (not vanilla one). Once player perform hit, rage bar resets to 0, then player can do critical hit again when in regenerated at least to 8. 
+Rage capacity cannot be increased, but you can increase regeneration speed with leveling up the Butchery skill, wearing the Battle Born armor set or fully regenerate with the Tablet of Rage.

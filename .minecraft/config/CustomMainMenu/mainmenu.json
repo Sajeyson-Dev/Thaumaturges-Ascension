@@ -1,0 +1,160 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "modpack:mainmenu/menu_logo.png",
+            "posX" : -160,
+            "posY" : -70,
+            "width" : 320,
+            "height" : 320,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "hoverText": "Have fun!",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "texture" : "modpack:mainmenu/button.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "hoverText": "Multiplayer...",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "modpack:mainmenu/button_small.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "hoverText": "Mods...",
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "modpack:mainmenu/button_small.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "modpack:mainmenu/button_small.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "hoverText": "Really?",
+            "posX" : 2,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+            "texture" : "modpack:mainmenu/button_small.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }/*
+        },
+
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -154,
+            "posY" : 132,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }*/
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -11,
+            "alignment" : "bottom_right"
+        },
+
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -47,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+        
+        "issues":
+        {
+            "text" : "\u00A73\u00A7nIssues",
+            "posX" : -40,
+            "posY" : 5,
+            "alignment" : "top_right",
+            "action" :
+            {
+                "type" : "openLink",
+                "link": "https://github.com/Sajeyson-Dev/Thaumaturges-Ascension/issues"
+            }
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 120,
+            "posY" : 125,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+        
+        "background":
+        {
+            "image" : "modpack:mainmenu/menu_background.png",
+            "mode": "fill"
+        }
+    }
+}

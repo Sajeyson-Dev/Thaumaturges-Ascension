@@ -1,0 +1,19 @@
+§3Ability:
+- Gives player short speed buff, hunger refilling or water breathing. It depends on the selected modifier, which can be changed with the arrow UP key by deafult.
+- Fall damage reduction.
+
+§3Getting Expedition XP:
+- XP gained from running around.
+
+§6Level §r- §2Fall Damage Resistance Multiplier:
+
+§6- 00    §r-    §21.0 - full damage.
+§6- 10    §r-    §20.95
+§6- 20    §r-    §20.9
+§6- 30    §r-    §20.85
+§6- 40    §r-    §20.8
+§6- 50    §r-    §20.7
+§6- 60    §r-    §20.6
+§6- 70    §r-    §20.5
+§6- 80    §r-    §20.4
+§6- 90    §r-    §20.3

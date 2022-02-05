@@ -1,0 +1,16 @@
+§3Ability:
+ - Has a chance to dodge the attack (chance depends on level).
+ - Restoring health by collecting Heartstones.
+
+§3Getting Innervation XP:
+ - Innervation experience can be earned by collecting Heart Stones, which are dropped by killing any mob (1 in 8 chance).
+
+§2Level §r- §6Health Restored:
+
+§2- 15    §r-    §61 heart
+§2- 30    §r-    §62 hearts
+§2- 45    §r-    §63 hearts
+§2- 60    §r-    §64 hearts
+§2- 75    §r-    §65 hearts
+§2- 90    §r-    §66 hearts
+§2- 99    §r-    §610 hearts

@@ -1,0 +1,48 @@
+§6§lWarning! Bosses will destroy blocks in 15x15 area if they don't have enough space.
+
+
+§3Boss §r- §2Summon Item §r- §6Altar §r- §6Altar Location §r- §8Dimension §r- Hunter Lvl Required:
+
+§3Smash §r- §2Troll Idol §r- §6None §r- §6None §r- §8Overworld §r- 12
+§3Corallus §r- §2See below §r- §6None§r- §6None §r- §8Overworld §r- 30
+§3King BamBamBam §r- §2Explosive Idol §r- §6None §r- §6None §r- §8The Nether §r- 23
+§3Nethengeic Wither §r- §2Nethengeic Callstone §r- §6None §r- §6None §r- §8The Nether §r- 65
+§3Tyrosaur §r- §2Bloodstone §r- §6Tyrosaur Altar §r- §6Tyrosaur Nest §r- §8Precasia §r- None
+§3Skeletal Army §r- §2Ancient Orb §r- §6Army Block §r- §6Skeletal Arena §r- §8Precasia §r- None
+§3Rockrider §r- §2Heavy Boulder §r- §6Rockrider Shrine §r- §6Rockrider Boulder §r- §8The Haven §r- None
+§3Vinocorne §r- §2Petal File §r- §6Vinocorne Altar §r- §6Floro Castle §r- §8Gardencia §r- None
+§3Dracyon §r- §2Call of the Drake §r- §6Dracyon Altar §r- §6Dracyon Platform §r- §8L'Borean §r- None
+§3Hive King §r- §2Hive Chunk §r- §6Hive Spawner §r- §6Baron Hive §r- §8Barathos §r- None
+§3Silverfoot §r- §2Silvro Coin §r- §6Silverfoot Altar §r- §6Iro Maze §r- §8Iromine §r- None
+§3Kror §r- §2Boulder Dash §r- §6Kror Altar §r- §6Kror Pillar §r- Deeplands §r- None
+§3Shadowlord §r- §2Book of Shadows §r- §6Shadowlord Altar §r- §6Shadowlord Platform §r- §8The Abyss §r- None
+§3Primordal Five §r- §2Primordal Dust §r- §6Primordal Shrine §r- §6Primordal Shrine (structure) §r- §8Dustopia §r- None
+§3Elusive §r- §2Staring Eye §r- §6Illusion Altar §r- §6Illusion Tree §r- §8The Abyss §r- 35
+§3Baroness §r- §2Bloodstone §r- §6Baroness Altar §r- §6Baroness Arena §r- §8Barathos §r- None
+§3Gyro §r- §2Toy Gyrocopter §r- §6Toy Box §r- §6Gyro Platform §r- §8Celeve §r- None
+§3Graw §r- §2Guardian's Eye §r- §6Graw Altar §r- §6Graw Pillar §r- §8Lelyetia §r- None
+§3Crystocore §r- §2Giant Grystal §r- §6Power Station §r- §6Crystocore Station (structure) §r- §8Crystevia §r- None
+§3Bane §r-  §2Haunted Idol §r- §6None §r- §6None §r- §8Greckon §r- None
+§3King Shroomus §r- §2Shroom Stone §r- §6None §r- §6None §r- §8Mysterium §r- None
+§3Four Guardians §r- §2Voliant Heart §r- §6Guardian Altar §r- §6Guardian's Tower §r- §8The Haven §r- None
+§3MechBot §r- §2Bloodstone §r- §6MechBot Altar §r- §6MechBot Charging Station §r- §8Iromine §r- None
+§3C.R.E.E.P §r- §2Explosive Gems §r- §6Greep Altar §r- §6Creper HQ §r- §8Creeponia §r- None 
+§3Clunkhead §r- §2Mega Rune Stone §r- §6Clunkhead Altar §r- §6Clunkhead Arena §r- §8Runador §r- None
+§3Cotton Candor §r- §2Treat Bag §r- §6Candy Block §r- §6Cotton Candy Tower §r- §8Candyland §r- None
+§3Visualent §r- §2Observing Eye §r- §6Visualent Altar §r- §6Observer's Eye (structure) §r- §8Lunalus §r- None
+§3Voxxulon §r- §2Vile Stone §r- §6Voxxulon Altar §r- §6Voxxulon Platform §r- §8Vox Ponds §r- None
+§3Craexxeus §r- §2Ancient Ring §r- §6Craexxeus Altar §r- §6Craexxeus Tower §r- §8Shyrelands §r- None
+
+§3A few notes:
+§2§o- Corallus has a 2% chance to spawn when the player kills Amphibiyte. Amphibiyte spawns inside Amphibiyte Caves, which can be found on the beaches of Overworld.
+§2§o- Tyrosaur, Baroness and MechBot will drop nothing.
+§2§o- Cotton Candor immune to all damage except basic staves: Wind, Water, Fire, Poison, Wither and Noxious Staff (depends on it's current bottom color). Last one will destroy him.
+§2§o- Almost all bosses drop hunter experience only if player has 30 hunter level of above.
+
+§3Ancient Cavern Bosses
+§3Boss §r- §6Shrine §r- §2Requirements:
+
+§3Coniferon §r- §6Selyan Shrine §r- §270 lvl Augury & Infusion
+§3Horon §r- §6Luxon Shrine §r- §270 lvl Augury & Runation
+§3Penumbra §r- §6Erebon Shrine §r- §270 lvl Augury & Hunter
+§3Goldorth §r- §6Pluton Shrine §r- §270 lvl Augury & Foraging
