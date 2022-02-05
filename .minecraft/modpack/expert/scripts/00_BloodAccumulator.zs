@@ -6,7 +6,7 @@ var enchFabric = <Thaumcraft:ItemResource:7>;
 
 recipes.remove(bloodAccumulator);
 
-Arcane.addShaped("ASPECTS", bloodAccumulator, "aer 63, aqua 63, ordo 63", [
+Arcane.addShaped("BLOOD_ACCUMULATOR", bloodAccumulator, "aer 63, aqua 63, ordo 63", [
     [enchFabric, null, enchFabric],
     [enchFabric, rosite, enchFabric],
     [enchFabric, enchFabric, enchFabric]

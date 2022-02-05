@@ -33,31 +33,31 @@ for ring in [
     recipes.remove(ring);
 }
 
-Arcane.addShaped("VOIDMETAL", ringType_1, aspects, [
+Arcane.addShaped("ANGEL_RING", ringType_1, aspects, [
     [glass, harness, glass],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-Arcane.addShaped("VOIDMETAL", ringType_2, aspects, [
+Arcane.addShaped("ANGEL_RING", ringType_2, aspects, [
     [feather, harness, feather],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-Arcane.addShaped("VOIDMETAL", ringType_3, aspects, [
+Arcane.addShaped("ANGEL_RING", ringType_3, aspects, [
     [purpleDye, harness, pinkDye],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-Arcane.addShaped("VOIDMETAL", ringType_4, aspects, [
+Arcane.addShaped("ANGEL_RING", ringType_4, aspects, [
     [leather, harness, leather],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-Arcane.addShaped("VOIDMETAL", ringType_5, aspects, [
+Arcane.addShaped("ANGEL_RING", ringType_5, aspects, [
     [goldNugget, harness, goldNugget],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]

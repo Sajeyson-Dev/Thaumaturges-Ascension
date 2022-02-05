@@ -8,7 +8,7 @@ var goldChest = <IronChest:BlockIronChest:1>;
 var ghostlyStone = <nevermine:GhostStone>;
 
 recipes.remove(goldenBag);
-Arcane.addShaped("ENCHFABRIC", goldenBag, "aer 45, ordo 45", [
+Arcane.addShaped("GOLDEN_BAG", goldenBag, "aer 45, ordo 45", [
     [enchFabric, thaumium, enchFabric],
     [enchFabric, goldChest, enchFabric],
     [enchFabric, goldBlock, enchFabric]

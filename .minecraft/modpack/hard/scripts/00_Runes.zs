@@ -15,31 +15,31 @@ var aspects_2 = "aer 12, terra 12, ignis 12, aqua 12, ordo 12, perditio 12";
 
 recipes.remove(runeOfPower);
 
-Arcane.addShaped("ASPECTS", runeOfReality, aspects, [
+Arcane.addShaped("RUNES", runeOfReality, aspects, [
     [ancientRock, null, ancientRock],
     [null, diamond, null],
     [null, ancientRock, null]
 ]);
 
-Arcane.addShaped("ASPECTS", runeOfTravel, aspects, [
+Arcane.addShaped("RUNES", runeOfTravel, aspects, [
     [null, ancientRock, null],
     [ancientRock, diamond, ancientRock],
     [ancientRock, null, ancientRock]
 ]);
 
-Arcane.addShaped("ASPECTS", runeOfPower, aspects_2, [
+Arcane.addShaped("RUNES", runeOfPower, aspects_2, [
     [amethyst, jade, amethyst],
     [amethyst, ancientRock, amethyst],
     [amethyst, jade, amethyst]
 ]);
 
-Arcane.addShaped("ASPECTS", runeOfSpace, aspects, [
+Arcane.addShaped("RUNES", runeOfSpace, aspects, [
     [ancientRock, null, ancientRock],
     [null, diamond, null,],
     [ancientRock, null, ancientRock]
 ]);
 
-Arcane.addShaped("ASPECTS", runeOfDirection, aspects, [
+Arcane.addShaped("RUNES", runeOfDirection, aspects, [
     [ancientRock, ancientRock, ancientRock],
     [null, diamond, null],
     [ancientRock, null, ancientRock]

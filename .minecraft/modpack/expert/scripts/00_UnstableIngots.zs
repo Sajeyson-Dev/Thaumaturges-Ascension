@@ -9,15 +9,15 @@ var thaumiumNugget = <Thaumcraft:ItemNugget:6>;
 recipes.remove(unstableIngot);
 recipes.remove(unstableNugget);
 
-Arcane.addShapeless("THAUMIUM", unstableIngot, "perditio 30, terra 20, ordo 20", [
+Arcane.addShapeless("UNSTABLE_INGOT", unstableIngot, "perditio 30, terra 20, ordo 20", [
     <ExtraUtilities:divisionSigil>, thaumium, <minecraft:diamond>
 ]);
 
-Arcane.addShapeless("THAUMIUM", unstableNugget, "perditio 3, terra 2, ordo 2", [
+Arcane.addShapeless("UNSTABLE_NUGGET", unstableNugget, "perditio 3, terra 2, ordo 2", [
     <ExtraUtilities:divisionSigil>, thaumiumNugget, <minecraft:diamond>
 ]);
 
-Infusion.addRecipe("INFUSION", thaumium, [
+Infusion.addRecipe("STABLE_INGOT", thaumium, [
     unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget],
     "metallum 30, ordo 30", <ExtraUtilities:unstableingot:2>, 1
 );
