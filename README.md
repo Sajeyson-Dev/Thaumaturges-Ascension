@@ -1,6 +1,6 @@
 # Thaumaturge's Ascension
 
-**This modpack is a combination of a full adventure with Thaumcraft research system.**
+**This modpack is a combination of a full hardcore adventure with Thaumcraft research system.**
 
 **Features:**
 
