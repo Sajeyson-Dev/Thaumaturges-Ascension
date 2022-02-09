@@ -2004,6 +2004,28 @@ for bullet in [
     add(bullet, "motus 3, telum 3, metalum 1");
 }
 
+// Pam's HarverstCraft Stuff
+for candle in [
+    <harvestcraft:pamcandleDeco1>,
+    <harvestcraft:pamcandleDeco2>,
+    <harvestcraft:pamcandleDeco3>,
+    <harvestcraft:pamcandleDeco4>,
+    <harvestcraft:pamcandleDeco5>,
+    <harvestcraft:pamcandleDeco6>,
+    <harvestcraft:pamcandleDeco7>,
+    <harvestcraft:pamcandleDeco8>,
+    <harvestcraft:pamcandleDeco9>,
+    <harvestcraft:pamcandleDeco10>,
+    <harvestcraft:pamcandleDeco11>,
+    <harvestcraft:pamcandleDeco12>,
+    <harvestcraft:pamcandleDeco13>,
+    <harvestcraft:pamcandleDeco14>,
+    <harvestcraft:pamcandleDeco15>,
+    <harvestcraft:pamcandleDeco16>
+] as IItemStack[] {
+    add(candle, "lux 1, sensus 1");
+}
+
 // Chisel Stones
 for item in [
     <chisel:andesite>,
