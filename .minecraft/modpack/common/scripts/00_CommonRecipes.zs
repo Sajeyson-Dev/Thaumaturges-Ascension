@@ -29,20 +29,22 @@ var tinyCharcoal = <customthings:item:1>;
 var coal = <minecraft:coal>;
 var charCoal = <minecraft:coal:1>;
 
+global stick as IItemStack = <minecraft:stick>;
+
+var opTorch = <xreliquary:interdiction_torch>;
+var magnumTorch = <ExtraUtilities:magnumTorch>;
 
 function removeAndHide(item as IItemStack) as void {
     recipes.remove(item);
     NEI.hide(item);
 }
 
-recipes.addShaped(<minecraft:stick> * 16, [
+recipes.addShaped(stick * 16, [
     [<ore:logWood>],
     [<ore:logWood>]
 ]);
 
 for item in [
-    <Natura:barleyFood:1>, 
-    <Natura:barleyFood:2>,
     <harvestcraft:sink:1>,
     <harvestcraft:chocolaterollItem>,
     <xreliquary:heart_pearl>,
@@ -65,6 +67,13 @@ recipes.addShaped(cake, [
     [sugar, <minecraft:egg>, sugar],
     [dough, dough, dough]
 ]);
+
+recipes.remove(<Natura:barleyFood:1>);
+recipes.remove(<Natura:barleyFood:2>);
+
+<ore:cropBarley>.add(<Natura:barleyFood>);
+<ore:listAllgrain>.add(<Natura:barleyFood>);
+<ore:cropCotton>.add(<Natura:barleyFood:3>);
 
 recipes.remove(bread);
 furnace.remove(bread);
@@ -132,4 +141,55 @@ recipes.addShaped(charCoal, [
     [tinyCharcoal, tinyCharcoal, tinyCharcoal],
     [tinyCharcoal, null, tinyCharcoal],
     [tinyCharcoal, tinyCharcoal, tinyCharcoal]
+]);
+
+function stoneToolFrom(material as IItemStack) as void {
+    recipes.addShaped(<minecraft:stone_sword>, [
+        [material],
+        [material],
+        [stick]
+    ]);
+    recipes.addShaped(<minecraft:stone_pickaxe>, [
+        [material, material, material],
+        [null, stick, null],
+        [null, stick, null]
+    ]);
+    recipes.addShaped(<minecraft:stone_axe>, [
+        [material, material],
+        [material, stick],
+        [null, stick]
+    ]);
+    recipes.addShaped(<minecraft:stone_shovel>, [
+        [material],
+        [stick],
+        [stick]
+    ]);
+    recipes.addShaped(<minecraft:stone_hoe>, [
+        [material, material],
+        [null, stick],
+        [null, stick]
+    ]);
+    recipes.addShaped(<minecraft:furnace>, [
+        [material, material, material],
+        [material, null, material],
+        [material, material, material]
+    ]);
+}
+
+for material in [
+    <chisel:andesite>,
+    <chisel:diorite>,
+    <chisel:granite>,
+    <chisel:limestone>,
+    <chisel:marble>
+] as IItemStack[] {
+    stoneToolFrom(material);
+}
+
+recipes.remove(opTorch);
+
+recipes.addShaped(opTorch * 4, [
+    [null, stormEye, null],
+    [angelicFeather, magnumTorch, angelicFeather],
+    [null, <xreliquary:mob_ingredient:11>, null]
 ]);
