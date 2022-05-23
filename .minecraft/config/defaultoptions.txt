@@ -114,6 +114,7 @@ key_key.craftingtweaks.clear:0
 key_key.craftingtweaks.toggleButtons:0
 key_key.craftingtweaks.compress:37
 key_key.craftingtweaks.decompress:0
+key_FpsReducer.key.guiOpen:207
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
