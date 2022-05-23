@@ -3,10 +3,9 @@
 #/.vscode/
 #/run/
 /natives/
-
 /.packignore
-/instance.cfg
-/mmc-pack.json
+instance.cfg
+mmc-pack.json
 
 /.minecraft/asm/
 /.minecraft/backups/
