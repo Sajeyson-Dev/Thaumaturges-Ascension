@@ -1,0 +1,629 @@
+{
+    "name": "loot",
+    "loot_rules": [
+        {
+            "level": [0],
+            "type": "STARTER",
+            "loot": [
+                {
+                    "data": {
+                        "name": "Thaumcraft:ItemThaumonomicon",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 3
+                }
+            ],
+            "each": true,
+			"quantity" : 1
+        },
+        {
+            "level": [0, 1, 2, 3, 4],
+            "type": "WEAPONS",
+            "loot": [
+                {   
+                    "data": {
+                        "name": "nevermine:ElementalArrow",
+                        "min": 5,
+                        "max": 8
+                    },
+                    "weight": 2
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:ElementalArrow",
+                        "min": 5,
+                        "max": 8
+                    },
+                    "weight": 2
+                },
+                {
+                    "data": {
+                        "name": "nevermine:SliceStar",
+                        "min": 10,
+                        "max": 24
+                    }, 
+                    "weight": 2
+                },
+                {
+                    "data": {
+                        "name": "nevermine:Chakram",
+                        "min": 10,
+                        "max": 24
+                    },
+                    "weight": 1
+                },
+                {
+                    "data": {
+                        "name": "nevermine:GooBall",
+                        "min": 4,
+                        "max": 16
+                    },
+                    "weight": 2
+                },
+                {
+                    "data": {
+                        "name": "nevermine:Grenade",
+                        "min": 5,
+                        "max": 10
+                    },
+                    "weight": 2
+                }
+            ],
+            "each": true,
+			"quantity" : 5
+        },
+        {
+            "level": [0, 1, 2, 3, 4],
+            "type": "FOOD",
+            "loot": [
+                {   
+                    "data": {
+                        "name": "harvestcraft:chickensandwichItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:fishsandwichItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:leafychickensandwichItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:leafyfishsandwichItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:grilledcheeseItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:cheeseburgerItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:baconcheeseburgerItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:deluxecheeseburgerItem",
+                        "min": 1,
+                        "max": 1
+                    }, 
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "harvestcraft:frenchtoastItem",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:applejellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:blackberryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:blueberryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:cherryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:cranberryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:kiwijellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:lemonjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:limejellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:mangojellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:orangejellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:papayajellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:peachjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:pomegranatejellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:raspberryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:starfruitjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:strawberryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:watermelonjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:apricotjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:figjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:grapefruitjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:persimmonjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:toastsandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:gooseberryjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:hamsweetpicklesandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:pearjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:plumjellysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "harvestcraft:honeysandwichItem",
+                        "min": 1,
+                        "max": 3
+                    }, 
+                    "weight": 1
+                }
+            ],
+            "each": true,
+			"quantity" : 2
+        },
+        {
+            "level": [0, 1, 2, 3, 4],
+            "type": "ORE",  
+            "loot": [
+                {   
+                    "data": {
+                        "name": "nevermine:IngotLimonite",
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:AmethystIngot",
+                        "min": 2,
+                        "max": 6
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotJade",
+                        "min": 2,
+                        "max": 4
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotRosite",
+                        "min": 1,
+                        "max": 2
+                    }, 
+                    "weight": 2
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotSapphire",
+                        "min": 1,
+                        "max": 1
+                    }, 
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemShard",
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemShard",
+                        "meta": 1,
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemShard",
+                        "meta": 2,
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemShard",
+                        "meta": 3,
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemShard",
+                        "meta": 4,
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemShard",
+                        "meta": 5,
+                        "min": 3,
+                        "max": 9
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:RuniumChunk",
+                        "min": 5,
+                        "max": 8
+                    }, 
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:blockCosmeticOpaque",
+                        "min": 2,
+                        "max": 4
+                    }, 
+                    "weight": 3
+                }
+            ],
+            "each" : true,
+			"quantity" : 8
+        },
+        {
+            "level": [0, 1, 2, 3, 4],
+            "type": "TOOLS",
+            "loot": [
+                {   
+                    "data": {
+                        "name": "nevermine:LimonitePickaxe",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:LimoniteAxe",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:LimoniteShovel",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "minecraft:shears",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "chisel:diamondChisel",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "OpenBlocks:luggage",
+                        "min": 1,
+                        "max": 1,
+                        "nbt": {
+                            "display": {
+                                "type": "COMPOUND",
+                                "value": {
+                                    "Name": {
+                                        "type": "STRING",
+                                        "value": "Chester"
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    "weight": 1
+                },
+                {
+                    
+                    "data": {
+                        "name": "PortalGun:PortalMulti",
+                        "meta": 11,
+                        "min": 1,
+                        "max": 1
+                    }, 
+                    "weight": 1
+                }
+            ],
+            "each": true,
+			"quantity" : 1
+        },
+        {
+            "level": [0, 1, 2, 3, 4],
+            "type": "BLOCKS",
+            "loot": [
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemLootBag",
+                        "min": 1,
+                        "max": 5
+                    },
+                    "weight": 4
+                },
+                {   
+                    "data": {
+                        "name": "Thaumcraft:ItemLootBag",
+                        "meta": 1,
+                        "min": 1,
+                        "max": 3
+                    },
+                    "weight": 2
+                },{   
+                    "data": {
+                        "name": "Thaumcraft:ItemLootBag",
+                        "meta": 2,
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                }
+            ],
+            "each": true,
+			"quantity" : 3
+        }
+    ]
+}

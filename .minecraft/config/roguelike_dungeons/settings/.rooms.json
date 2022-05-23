@@ -1,0 +1,21 @@
+{
+    "name": "rooms",
+    "levels": {
+        "0": {
+            "secrets": [
+                {
+                    "type": "BEDROOM",
+                    "num": 1
+                },
+                {
+                    "type": "FIREWORK",
+                    "num": 1
+                },
+                {
+                    "type": "ENCHANT",
+                    "num": 1
+                }
+            ]
+        }
+    }
+}

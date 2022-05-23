@@ -1,0 +1,56 @@
+{
+    "name": "theme_3",
+    "levels": {
+        "3": {
+            "theme": {
+                "primary": {
+                    "walls": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:brick_8"
+                        }
+                    },
+                    "pillar": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:stonebrick"
+                        }
+                    },
+                    "stair": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:sbrick_8"
+                        }
+                    },
+                    "floor": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:grass"
+                        }
+                    }
+                },
+                "secondary": {
+                    "walls": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "ExtraUtilities:colorStoneBrick",
+                            "meta": 7
+                        }
+                    },
+                    "pillar": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:stonebrick"
+                        }
+                    },
+                    "stair": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:sbrick_8"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

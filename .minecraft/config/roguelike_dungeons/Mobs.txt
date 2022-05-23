@@ -1,0 +1,15 @@
+Defaults:
+
+    Level 0: Zombie, Skeleton, Spider.
+    Level 1: Zombie, Skeleton, Spider.
+    Level 2: Zombie, Skeleton, Spider, Creeper, CaveSpider.
+    Level 3: Zombie, Skeleton, Spider, Creeper, CaveSpider, Silverfish, Enderman.
+    Level 4: Zombie, Skeleton, Spider, CaveSpider?.
+
+Current:
+
+    Level 0: Goblin, Skolle, Grunt.
+    Level 1: Hag, SeaTroll, Chomper.
+    Level 2: Furlion, SandGolem, Wickett, Sphinx, CaveSpider.
+    Level 3: BrainyZombie, NightReaper, FacelessRunner, VoidWalker, CaveSpider, Silverfisfh, Ghost.
+    Level 4: Firebat, FlameSpiderBaby, Shade, CaveSpider.

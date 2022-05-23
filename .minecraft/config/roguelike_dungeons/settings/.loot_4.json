@@ -1,0 +1,134 @@
+{
+    "name": "loot_4",
+    "loot_rules": [
+        {
+            "level": 4,
+            "type": "ARMOUR",
+            "loot": [
+                {   
+                    "data": {
+                        "name": "nevermine:LyndamyteHelmet",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:LyndamyteChestplate",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:LyndamyteLeggings",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:LyndamyteBoots",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                }
+            ],
+            "each": true,
+			"quantity" : 1
+        },
+        {
+            "level": 4,
+            "type": "BLOCKS",
+            "loot": [
+                {   
+                    "data": {
+                        "name": "minecraft:golden_apple",
+                        "meta": 1,
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 1
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:ShinyBox",
+                        "min": 1,
+                        "max": 3
+                    },
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:CopperCoin",
+                        "min": 8,
+                        "max": 32
+                    },
+                    "weight": 6
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:SilverCoin",
+                        "min": 2,
+                        "max": 2
+                    },
+                    "weight": 4
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:GoldCoin",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 2
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotLimonite",
+                        "min": 4,
+                        "max": 8
+                    },
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:AmethystIngot",
+                        "min": 3,
+                        "max": 6
+                    },
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotRosite",
+                        "min": 2,
+                        "max": 4
+                    },
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotJade",
+                        "min": 1,
+                        "max": 2
+                    },
+                    "weight": 3
+                },
+                {   
+                    "data": {
+                        "name": "nevermine:IngotSapphire",
+                        "min": 1,
+                        "max": 1
+                    },
+                    "weight": 3
+                }
+            ],
+            "each": true,
+			"quantity" : 3
+        }
+    ]
+}

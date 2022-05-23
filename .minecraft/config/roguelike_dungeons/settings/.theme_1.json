@@ -1,0 +1,58 @@
+{
+    "name": "theme_1",
+    "levels": {
+        "1": {
+            "theme": {
+                "primary": {
+                    "walls": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:brick_9"
+                        }
+                    },
+                    "pillar": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "ExtraUtilities:colorStoneBrick",
+                            "meta": 9
+                        }
+                    },
+                    "stair": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:sbrick_9"
+                        }
+                    },
+                    "floor": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "Natura:GrassBlock",
+                            "meta": 1
+                        }
+                    }
+                },
+                "secondary": {
+                    "walls": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:bricksCoral"
+                        }
+                    },
+                    "pillar": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "ExtraUtilities:colorStoneBrick",
+                            "meta": 9
+                        }
+                    },
+                    "stair": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "nevermine:sbrick_9"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

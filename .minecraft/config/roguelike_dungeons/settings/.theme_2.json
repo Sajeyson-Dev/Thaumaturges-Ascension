@@ -1,0 +1,59 @@
+{
+    "name": "theme_2",
+    "levels": {
+        "2": {
+            "theme": {
+                "primary": {
+                    "walls": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "chisel:sandstone",
+                            "meta": 8
+                        }
+                    },
+                    "pillar": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "chisel:sandstone",
+                            "meta": 4
+                        }
+                    },
+                    "stair": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:sandstone_stairs"
+                        }
+                    },
+                    "floor": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:sandstone"
+                        }
+                    }
+                },
+                "secondary": {
+                    "walls": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:sandstone",
+                            "meta": 2
+                        }
+                    },
+                    "pillar": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "chisel:sandstone",
+                            "meta": 4
+                        }
+                    },
+                    "stair": {
+                        "type": "METABLOCK",
+                        "data": {
+                            "name": "minecraft:sandstone_stairs"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

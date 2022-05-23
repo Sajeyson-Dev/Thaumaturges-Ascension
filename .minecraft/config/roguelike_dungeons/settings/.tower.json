@@ -1,0 +1,50 @@
+{
+    "name": "tower",
+    "tower": {
+        "type": "ROGUE",
+        "theme": {
+            "primary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "Natura:planks",
+                        "meta": 10
+                    }
+                },
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "Natura:willow"
+                    }
+                },
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "Natura:stair.willow"
+                    }
+                }
+            },
+            "secondary": {
+                "walls": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "Thaumcraft:blockWoodenDevice",
+                        "meta": 6
+                    }
+                },
+                "pillar": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "Natura:willow"
+                    }
+                },
+                "stair": {
+                    "type": "METABLOCK",
+                    "data": {
+                        "name": "Natura:stair.willow"
+                    }
+                }
+            }
+        }
+    }
+}

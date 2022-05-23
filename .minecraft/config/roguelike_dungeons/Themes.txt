@@ -1,0 +1,5 @@
+Level 0 - Normal: Willow, Green Stone Bricks, Grass Block.
+Level 1 - Oceanic: Coloured Bricks (Cyan), Cyan Stone Bricks, Blue Grass Block.
+Level 2 - Sandy: Misc Sandstone.
+Level 3 - Caves: Stone, Stone Bricks, Grass Block.
+Level 4 - Nether: Nether Bricks, Black Bricks, Concrete.
