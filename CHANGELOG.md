@@ -16,6 +16,7 @@
 - Added Easter Egg 🙂.
 - Added String recipe (Wool + Shears).
 - Added spooky startup sound.
+- Added Name Tag recipe.
 ### **Changes**
 - Scripts rewrite.
 - Bucket max stack size to 16.
