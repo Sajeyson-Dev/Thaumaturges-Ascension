@@ -1,17 +1,21 @@
 import minetweaker.item.IItemStack;
 
+/*
+    Author: Sajeyson
+*/
+
 function addTooltip(item as IItemStack, tooltip as string) as void {
 	item.addTooltip(format.gold(tooltip));
 }
 
 function addShiftTooltip(item as IItemStack, tooltip as string) as void {
-    item.addTooltip(format.gray(format.italic("Hold SHIFT for more info...")));
+    item.addTooltip(format.gray(format.italic("Hold <Shift>")));
 	item.addShiftTooltip(format.gold(tooltip));
 }
 
 // \n doesn't work!!!
 function addShiftTooltip2(item as IItemStack, line_1 as string, line_2 as string) as void {
-    item.addTooltip(format.gray(format.italic("Hold SHIFT for more info...")));
+    item.addTooltip(format.gray(format.italic("Hold <Shift>")));
     item.addShiftTooltip(format.gold(line_1));
     item.addShiftTooltip(format.gold(line_2));
 }
@@ -60,7 +64,7 @@ for item in [
     <nevermine:pStoneRadiant>, 
     <nevermine:pStoneBlooming>
 ] as IItemStack[] {
-    addShiftTooltip(item, "Obtained by consuming Infusion Stones on the Infusion Table.");
+    addShiftTooltip(item, "Obtained by consuming Infusion Stones at the Infusion Table or by killing mobs.");
 }
 
 // Baubles
@@ -110,6 +114,8 @@ for bow in [
 ] as IItemStack[] {
     addDamageTooltip(bow, "10 Max Ranged Damage");
 }
+
+addTooltip(<ExtraUtilities:unstableingot>, "Don't listen to this guy! This must be crafted on the Arcane Workbench!");
 
 addShiftTooltip(<nevermine:TrollIdol>, "Summons Smash.");
 addShiftTooltip2(<nevermine:ExplosiveIdol>, "Summons King BamBamBam.", "Dropped from Diocuses with a 14% chance in Precasian Underground Dens.");
