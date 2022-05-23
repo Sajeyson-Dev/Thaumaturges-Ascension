@@ -37,6 +37,8 @@
   - Cake
   - Cloud in a Bottle
   - Smashing Rock
+  - Sulfur
+  - Gunpowder
 ### **Fixes**
 - Fixed some unlocalized names.
 - Fixed Destruction Catalyst doesn't working on stones from other Dimensions.
