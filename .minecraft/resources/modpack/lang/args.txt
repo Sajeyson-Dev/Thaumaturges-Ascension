@@ -1,0 +1,3 @@
+For regular 256x256 images <IMG>path:locationToPng:size:sizeInBook:scale</IMG>
+<LINE/> - linebreak
+<BR> - paragraph break

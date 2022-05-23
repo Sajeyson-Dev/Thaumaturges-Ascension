@@ -1,0 +1,64 @@
+
+item.tiny_coal.name=Tiny Coal
+item.tiny_charcoal.name=Tiny Charoal
+
+tooltip.wawla.missingEnch=
+tooltip.wawla.shiftEnch=Hold the Sneak key for Enchantment Description
+
+tile.chisel.sandstone2.name=Sandstone
+tile.sandstone.16.desc=Just a block
+tile.sandstone.17.desc=Just a block
+
+entity.nevermine.Luxocron.name=Luxocron
+entity.testdummy.Dummy.name=Test Dummy
+entity.PortalGun.portal_entityradio.name=Radio
+entity.PortalGun.portal_entitycube.name=Weighted Storage Cube
+entity.PortalGun.portal_entityblock.name=Do you see this?
+
+tile.sand.name=Sand
+tile.dirt.name=Dirt
+
+key.craftingGrid=Disabled
+key.control=Disabled
+nei.options.keys.showenchant=Show Enchant
+
+tc.research_name.ANGEL_RING=Angel Ring
+tc.research_text.ANGEL_RING=You believe...
+research_page.ANGEL_RING=Are you still here!?
+
+tc.research_name.BLOOD_ACCUMULATOR=Blood Accumulator
+tc.research_text.BLOOD_ACCUMULATOR=Collecting Blood
+research_page.BLOOD_ACCUMULATOR=The Blood Accumulator is used to collect Bloodlusts, which has a 1 in 30 chance of spawning when the player attacks mob. <IMG>modpack:thaumonomicon/bloodlust.png:256:256:256:256:0.3</IMG> Collecting bloodlusts will level up your Butchery skill. <BR>More information in a guide...
+
+tc.research_name.GOLDEN_BAG=Golden Bag of Holding
+tc.research_text.GOLDEN_BAG=Your best friend
+research_page.GOLDEN_BAG=Golden Bag of Holding is an item that can store your items. <BR>Combine it a few Ghostly Stones on the Arcane Workbench to apply Reincarnation on the bag, allowing the bag to be restored immediately after death. The bag will lose reincarnation after returning to inventory.
+
+tc.research_name.INFUSION_BLUEPRINT=Infusion Blueprint
+tc.research_text.INFUSION_BLUEPRINT=Yes, another one...
+research_page.INFUSION_BLUEPRINT=Infusion, yes, another one... <IMG>modpack:thaumonomicon/infusion.png:256:256:256:256:0.4</IMG> Infusion Table used to train your infusion skill and enchant items basically for free... <BR>More information in a guide...
+
+tc.research_name.MINERS_RING=Miner's Ring
+tc.research_text.MINERS_RING=You know...
+research_page.MINERS_RING=Provides player Haste I for free... <BR>Can be equipped in the ring slot.
+
+tc.research_name.PORTAL_GUN=Pew-pew and woop-woop!
+tc.research_text.PORTAL_GUN=Portals!
+research_page.PORTAL_GUN=You know what it is...
+
+tc.research_name.RUNES=Ancient Teleportation
+tc.research_text.RUNES=Your adventure has just begun...
+research_page.RUNES=An example of the portal structure. <IMG>modpack:thaumonomicon/portal.png:256:256:256:256:0.4</IMG> The portal frame must be 6 blocks tall and 5 blocks wide made of Ancient Rock with Carved Rune of Power at the bottom-center of the frame. Other four runes can be placed wherever you want.
+research_page.RUNES.2=Right-click on a Carved Rune of Power with the Realmstone to activate the portal and start your adventure...
+
+tc.research_name.UNSTABLE_INGOT=Unstable Ingots
+tc.research_text.UNSTABLE_INGOT=1, 2, 3, 4, 5, 6, 7, 8, 9, 10...
+research_page.UNSTABLE_INGOT=Dividing by diamond is very dangerous, but it can be useful for some interesting things...
+
+tc.research_name.UNSTABLE_NUGGET=Semi-stable Nuggets
+tc.research_text.UNSTABLE_NUGGET=Part of...
+research_page.UNSTABLE_NUGGET=First step to control this...
+
+tc.research_name.STABLE_INGOT=Stable Ingots
+tc.research_text.STABLE_INGOT=The Power of...
+research_page.STABLE_INGOT=Like a true thaumaturge, you will be able to control chaos and destruction...
