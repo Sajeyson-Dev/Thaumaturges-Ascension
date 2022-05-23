@@ -3,21 +3,28 @@ const path = require('path')
 const fs = require('fs')
 const config = require('./config.json')
 
-var instance_name = path.basename(path.resolve('./'))
-var logType = path.resolve(`.minecraft/logs/${config.log_type}.log`)
+var instanceName = path.basename(path.resolve('./'))
 
-function startInstance(args,  name) {
-    exec(args + " -l=" + `"${name}"`)
-    console.log('Starting instance: ' + name)
+function startInstance(mmc, instance) {
+    exec(mmc + " -l=" + `"${instance}"`)
+    console.log('Starting instance: ' + instance)
 }
 
-startInstance(config.mmc_path, instance_name)
+startInstance(config.mmcPath, instanceName)
 
-if (config.log_type != null) {
-    if (fs.existsSync(logType)) {
-        exec("code -r " + `"${logType}"`)
+if (config.logType != null) {
+    var folderType1 = path.resolve(`minecraft/logs/${config.log_type}.log`)
+    var folderType2 = path.resolve(`.minecraft/logs/${config.log_type}.log`)
+
+    if (fs.existsSync(folderType1)) {
+        exec("code -r " + folderType1)
     }
-    else {
+
+    if (fs.existsSync(folderType2)) {
+        exec("code -r " + folderType2)
+    }
+
+    if (!fs.existsSync(folderType1, folderType2)) {
         console.log(`Unable to find log file: ${config.log_type}.log`)
     }
 }

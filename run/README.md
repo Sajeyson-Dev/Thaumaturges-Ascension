@@ -1,8 +1,18 @@
-# VScode-Modpack-Runner
+# VSCode-Modpack-Runner
 
-***Make sure you have node.js installed before using this.***
+***Make sure you have NodeJS installed before using this.***
 
-> Config values
-- "mmc_path": **"Path/to/your/multimc/executable"**
-- "log_type": Name of the log file to open during startup. Example: **"latest", "debug"** or **null** to disable.
-- "folders_to_remove": A list of folder for **'clear_instance'** task.
+| Task           | Description                                                                                                                   |
+| ---------------|------------------------------------------------------------------------------------------------------------------------------ |
+| Start Instance | Runs your modpack.                                                                                                            |
+| Setup Instance | Setups the instance.cfg and mmc-pack.json files with given values in the config file to make MultiMC recognize your instance. |
+| Clear Instance | Deletes specified folders in config file.                                                                                     |
+
+| Config values    | Description                                                                                         | Task           |
+| -----------------|---------------------------------------------------------------------------------------------------- | -------------- |
+| mmcPath          | Path/to/your/multimc/executable                                                                     | Start Instance |
+| instanceName     | Display name of the instance.                                                                       | Setup Instance |
+| mcVersion        | Minecraft version of the instance.                                                                  | Setup Instance |
+| forgeVersion     | Forge version of the instance.                                                                      | Setup Instance |
+| logType          | Name of the log file to open during startup. Example: **"latest", "debug"** or **null** to disable. | Start Instance |
+| foldersToRemove  | A list of folders for the **Clear Instance** task.                                                  | Clear Instance |
