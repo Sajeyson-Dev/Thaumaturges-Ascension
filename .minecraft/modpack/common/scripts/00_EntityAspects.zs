@@ -1,5 +1,9 @@
 import mods.thaumcraft.Aspects;
 
+/*
+    Author: Sajeyson
+*/
+
 function add(entity as string, aspect as string) as void {
 	Aspects.addEntity("nevermine." + entity, aspect);
 }
@@ -10,7 +14,10 @@ function addDefault(entity as string, aspect as string) as void {
 
 var and = ", ";
 
-// number = mob size | 1=small, 2=medium/normal, 3=huge.
+/*
+    number = mob size | 1=small, 2=medium/normal, 3=huge.
+*/
+
 var beast1 = "bestia 2";
 var beast2 = "bestia 3";
 var beast3 = "bestia 5";
