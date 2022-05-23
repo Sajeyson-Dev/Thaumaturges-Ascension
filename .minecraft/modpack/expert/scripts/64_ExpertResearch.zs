@@ -50,8 +50,8 @@ var runesItem as IItemStack[] = [
 */
 
 function newResearch(name as string, tab as string, hidden as bool, aspects as string, x as int, y as int, difficulty as int, item as IItemStack) as void {
-	Research.addResearch(name, tab, aspects, x, y, difficulty, item);
-	Research.addPage(name, "research_page." + name);
+    Research.addResearch(name, tab, aspects, x, y, difficulty, item);
+    Research.addPage(name, "research_page." + name);
     Research.setConcealed(name, hidden);
 }
 
