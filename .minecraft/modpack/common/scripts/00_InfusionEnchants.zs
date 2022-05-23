@@ -2,6 +2,10 @@ import minetweaker.item.IItemStack;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Research;
 
+/*
+    Author: Sajeyson
+*/
+
 // Enchantments ID's
 var XPBoost = 45;
 var AutoSmelt = 46;
@@ -26,8 +30,6 @@ function addInfusionEnch(ench as int, instability as int, aspects as string, rec
     Research.addEnchantmentPage("INFUSIONENCHANTMENT", ench);
 }
 
-addInfusionEnch(XPBoost, 5, "praecantatio 4, lucrum 8, cognitio 10, instrumentum 10", [<Thaumcraft:ItemResource:14>, <minecraft:experience_bottle>, <minecraft:experience_bottle>, <minecraft:experience_bottle>]);
-addInfusionEnch(AutoSmelt, 4, "praecantatio 4, instrumentum 10, ignis 8", [<Thaumcraft:ItemResource:14>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:7>]);
 addInfusionEnch(Control, 3, "praecantatio 4, ordo 10, machina 5", [<Thaumcraft:ItemResource:14>, <nevermine:WeaponParts>]);
 addInfusionEnch(Shell, 3, "praecantatio 4, telum 12, potentia 10", [<Thaumcraft:ItemResource:14>, <nevermine:MetalPellet>, <nevermine:MetalSlug>]);
 addInfusionEnch(Recharge, 3, "praecantatio 4, cognitio 5, ordo 8, auram 4", [<Thaumcraft:ItemResource:14>, <nevermine:Ghoulasm>, <nevermine:GhoulasmPrimed>]);
