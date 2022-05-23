@@ -1,6 +1,10 @@
 import minetweaker.item.IItemStack;
 import mods.chisel.Groups;
 
+/*
+    Author: Sajeyson
+*/
+
 for stone in [
     <nevermine:darkstone>,
     <nevermine:stoneAbyss>,
