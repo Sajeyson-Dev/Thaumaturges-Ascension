@@ -1,6 +1,10 @@
 import minetweaker.item.IItemStack;
 import mods.thaumcraft.Aspects;
 
+/*
+    Author: Sajeyson
+*/
+
 function add(item as IItemStack, aspect as string) as void {
 	Aspects.add(item, aspect);
 }
@@ -23,7 +27,9 @@ for item in [
     <nevermine:eyeShrub>,
     <nevermine:tubeicles>,
     <nevermine:bloodPineStem>,
-    <nevermine:bloodPine>
+    <nevermine:bloodPine>,
+    <nevermine:bulbStock>,
+    <nevermine:bulbStockTop>
 ] as IItemStack[] {
     add(item, "herba 1, tenebrae 1");
 }
@@ -58,7 +64,9 @@ add(<nevermine:blockAcid>, "limus 2, venenum 2");
 for item in [
     <nevermine:luconGrass>,
     <nevermine:tangleThorn>,
-    <nevermine:AncientCactus>
+    <nevermine:AncientCactus>,
+    <nevermine:mellians>,
+    <nevermine:pertonias>
 ] as IItemStack[] {
     add(item, "herba 1");
 }
