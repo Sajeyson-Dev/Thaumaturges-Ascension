@@ -2,6 +2,8 @@
 ### **Changes**
 - Removed unused Enchantments ID's from scripts.
 - Some scripts improvements.
+### **Fixes**
+- Fixed broken 1.0.2 export.
 
 ## **Thaumaturge's Ascension: 1.0.2-release.**
 ### **Added**
