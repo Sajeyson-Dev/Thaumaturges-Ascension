@@ -21,6 +21,7 @@
 - Added Easter Egg 🙂.
 - Added String recipe (Wool + Shears).
 - Added spooky startup sound.
+- Added Name Tag recipe.
 ### **Changes**
 - Scripts rewrite.
 - Bucket max stack size to 16.
@@ -42,6 +43,8 @@
   - Cake
   - Cloud in a Bottle
   - Smashing Rock
+  - Sulfur
+  - Gunpowder
 ### **Fixes**
 - Fixed some unlocalized names.
 - Fixed Destruction Catalyst doesn't working on stones from other Dimensions.
