@@ -6,7 +6,7 @@ import mods.thaumcraft.Warp;
     Author: Sajeyson
 */
 
-print("Loading Hard Researches...");
+print("Loading Hard Mode Researches...");
 
 var angelRing               = "ANGEL_RING";
 var bloodAccumulator        = "BLOOD_ACCUMULATOR";

@@ -6,7 +6,7 @@ import mods.thaumcraft.Warp;
     Author: Sajeyson
 */
 
-print("Loading Expert Researches...");
+print("Loading Expert Mode Researches...");
 
 var angelRing               = "ANGEL_RING";
 var bloodAccumulator        = "BLOOD_ACCUMULATOR";
