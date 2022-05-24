@@ -1,3 +1,8 @@
+## **Thaumaturge's Ascension: 1.0.3-release.**
+### **Changes**
+- Removed unused Enchantments ID's from scripts.
+- Some scripts improvements.
+
 ## **Thaumaturge's Ascension: 1.0.2-release.**
 ### **Added**
 - #### Mods
