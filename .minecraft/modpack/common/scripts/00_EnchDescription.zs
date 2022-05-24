@@ -3,22 +3,21 @@
 */
 
 // Enchantments ID's
-var XPBoost = 45;
-var AutoSmelt = 46;
-var Control = 100;
-var Shell = 101;
-var Recharge = 102;
-var Overpower = 103;
-var Crush = 104;
-var Sever = 105;
-var Archmage = 106;
-var Windfury = 107;
-var Slice = 108;
-var Intervention = 109;
-var Reading = 196;
-var Unstable = 211;
-var LastStand = 212;
-var FlimFlam = 213;
+var Control         = 100;
+var Shell           = 101;
+var Recharge        = 102;
+var Overpower       = 103;
+var Crush           = 104;
+var Sever           = 105;
+var Archmage        = 106;
+var Windfury        = 107;
+var Slice           = 108;
+var Intervention    = 109;
+var Reading         = 196;
+var EternalCompass  = 197;
+var Unstable        = 211;
+var LastStand       = 212;
+var FlimFlam        = 213;
 
 function getName(ench as short) as string {
     if (ench == 0) {
@@ -185,8 +184,6 @@ for ench in 211 .. 214 {
 
 addOwner(Reading, "BiblioCraft");
 
-addDesc(XPBoost, "Gives more XP from mobs and ores.");
-addDesc(AutoSmelt, "Automatically smelts whatever you mined.");
 addDesc(Control, "Reduces gun recoil by 25|50%");
 addDesc(Shell, "Increases gun damage and shot delay by 20|40|60%");
 addDesc(Recharge, "20|40% less energy usage by Energy Weapons.");

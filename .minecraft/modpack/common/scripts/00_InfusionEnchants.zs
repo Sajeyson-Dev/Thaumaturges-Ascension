@@ -7,23 +7,21 @@ import mods.thaumcraft.Research;
 */
 
 // Enchantments ID's
-var XPBoost = 45;
-var AutoSmelt = 46;
-var Control = 100;
-var Shell = 101;
-var Recharge = 102;
-var Overpower = 103;
-var Crush = 104;
-var Sever = 105;
-var Archmage = 106;
-var Windfury = 107;
-var Slice = 108;
-var Intervention = 109;
-var Reading = 196;
-var EternalCompass = 197;
-var Unstable = 211;
-var LastStand = 212;
-var FlimFlam = 213;
+var Control         = 100;
+var Shell           = 101;
+var Recharge        = 102;
+var Overpower       = 103;
+var Crush           = 104;
+var Sever           = 105;
+var Archmage        = 106;
+var Windfury        = 107;
+var Slice           = 108;
+var Intervention    = 109;
+var Reading         = 196;
+var EternalCompass  = 197;
+var Unstable        = 211;
+var LastStand       = 212;
+var FlimFlam        = 213;
 
 function addInfusionEnch(ench as int, instability as int, aspects as string, recipe as IItemStack[]) as void {
     Infusion.addEnchantment("INFUSIONENCHANTMENT", ench, instability, aspects, recipe);
