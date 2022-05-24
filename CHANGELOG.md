@@ -1,3 +1,6 @@
+## **Thaumaturge's Ascension: 1.0.4-release.**
+### **Fixes**
+- Advent of Ascension bows not working properly.
 ## **Thaumaturge's Ascension: 1.0.3-release.**
 ### **Changes**
 - Removed unused Enchantments ID's from scripts.

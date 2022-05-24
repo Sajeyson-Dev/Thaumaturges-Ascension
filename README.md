@@ -9,6 +9,8 @@
 * Added over 600 missing aspects for mobs.
 * Normal, Hard and Expert modes, which affect recipes, vis cost, and research difficulty.
 * Ingame wiki/guide.
+* Custom Roguelike Dungeons.
+* **Lots** of tweaks.
 
 ***Run /ftb_mode set 'modename' to switch modes. The modes are local, and per world.***
 
