@@ -35,8 +35,8 @@
 - Added Name Tag recipe.
 ### **Changes**
 - Scripts rewrite.
-- Bucket max stack size to 16.
-- Ender Pearl max stack size to 64.
+- Bucket max stack size is now 16.
+- Ender Pearl max stack size is now 64.
 - Sealing Tape from Storage Drawers now has 64 uses instead of 10.
 - Improved Enchanted Book and shift tooltips.
 - Enabled Long Fall Boots with custom recipe.
