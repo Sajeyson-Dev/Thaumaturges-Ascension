@@ -2,7 +2,7 @@
 ### **Changes**
 - Removed Reincarnating Golden Bag recipe, because bug.
 ### **Fixes**
-- Missing Durability Enhancer info inside Infusion guide.
+- Fixed missing Durability Enhancer info inside Infusion guide.
 
 ## **Thaumaturge's Ascension: 1.0.4-release.**
 ### **Fixes**
