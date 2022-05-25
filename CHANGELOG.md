@@ -1,3 +1,9 @@
+## **Thaumaturge's Ascension: 1.0.5-release.**
+### **Changes**
+- Removed Reincarnating Golden Bag recipe, because bug.
+### **Fixes**
+- Missing Durability Enhancer info inside Infusion guide.
+
 ## **Thaumaturge's Ascension: 1.0.4-release.**
 ### **Fixes**
 - Advent of Ascension bows not working properly.
