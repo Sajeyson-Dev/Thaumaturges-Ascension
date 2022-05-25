@@ -4,15 +4,15 @@ import minetweaker.item.IItemStack;
     Author: Sajeyson
 */
 
-var bonus 				= "bonusChest";
-var dungeon 			= "dungeonChest";
-var	mineshaft 			= "mineshaftCorridor";
-var pyramid 			= "pyramidDesertyChest";
-var temple 				= "pyramidJungleChest";
-var	strongholdCorridor  = "strongholdCorridor";
-var strongholdCrossing  = "strongholdCrossing";
-var strongholdLibrary 	= "strongholdLibrary";
-var village 			= "villageBlacksmith";
+var bonus 					= "bonusChest";
+var dungeon 				= "dungeonChest";
+var mineshaft 				= "mineshaftCorridor";
+var pyramid 				= "pyramidDesertyChest";
+var temple 					= "pyramidJungleChest";
+var strongholdCorridor 		= "strongholdCorridor";
+var strongholdCrossing 		= "strongholdCrossing";
+var strongholdLibrary 		= "strongholdLibrary";
+var village 				= "villageBlacksmith";
 
 /*
 	Loot tables.
