@@ -60,11 +60,11 @@
 - Fixed some unlocalized names.
 - Fixed Destruction Catalyst doesn't working on stones from other Dimensions.
 - Fixed Chunk Loaders craftable into microblock.
-- Fixed Flour recipe from Natura.
+- Fixed Flour from Natura is craftable.
 
 ## **Thaumaturge's Ascension: 1.0.1-release.**
 ### **Added**
-- Added sspects for Pam's HarverstCraft candles.
+- Added aspects for Pam's HarverstCraft candles.
 - Added Stone tools and furnace recipes from other Overworld stone types.
 ### **Changes**
 - Changed Interdiction Torch recipe.
