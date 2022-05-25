@@ -39,5 +39,6 @@ To start enchanting with Infusion you need place four single type enhancers on t
 
 §8Resistance §r- §3Protection §r- §8Any Armor Piece §r- §r(§31§r:§21, §32§r:§247, §33§r:§267, §34§r:§287§r) §r- §6Shining
 §8Magic §r- §3Archmage §r- §8Any Stave §r- §r(§31§r:§285§r) §r- §6Radiant
+§8Durability §r- §3Unbreaking §r- §8Any Tool/Weapon/Armor §r- §r(§31§r:§21§r, §32§r:§261§r, §33§r:§281§r, §34§r:§296§r) §r- §6Blooming
 
 §2§oAdditionally, Divine Station used to apply Intervention on the item. Player must have 20 levels of Infusion and Augury with an Ambient Infusion Stone.
