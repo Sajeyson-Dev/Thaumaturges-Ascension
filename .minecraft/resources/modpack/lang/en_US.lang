@@ -32,7 +32,7 @@ research_page.BLOOD_ACCUMULATOR=The Blood Accumulator is used to collect Bloodlu
 
 tc.research_name.GOLDEN_BAG=Golden Bag of Holding
 tc.research_text.GOLDEN_BAG=Your best friend
-research_page.GOLDEN_BAG=Golden Bag of Holding is an item that can store your items. <BR>Combine it a few Ghostly Stones on the Arcane Workbench to apply Reincarnation on the bag, allowing the bag to be restored immediately after death. The bag will lose reincarnation after returning to inventory.
+research_page.GOLDEN_BAG=Golden Bag of Holding is an item that can store your items. Cool, right?
 
 tc.research_name.INFUSION_BLUEPRINT=Infusion Blueprint
 tc.research_text.INFUSION_BLUEPRINT=Yes, another one...

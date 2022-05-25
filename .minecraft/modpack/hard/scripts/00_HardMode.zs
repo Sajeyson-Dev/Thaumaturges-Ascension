@@ -37,7 +37,6 @@ var enchFabric                  = <Thaumcraft:ItemResource:7>;
 var thaumium                    = <Thaumcraft:ItemResource:2>;
 var goldBlock                   = <minecraft:gold_block>;
 var goldChest                   = <IronChest:BlockIronChest:1>;
-var ghostlyStone                = <nevermine:GhostStone>;
 var ancientRock                 = <nevermine:ancientRock>;
 var amethystIngot               = <nevermine:AmethystIngot>;
 var infusionStone               = <nevermine:iStoneGlistening>;
@@ -77,7 +76,6 @@ var stableIngot                 = <ExtraUtilities:unstableingot:2>;
 var angelRingAspects            = "aer 97, ordo 97, terra 72";
 var bloodAccumulatorAspects     = "aer 42, aqua 42, ordo 42";
 var goldenBagAspects            = "aer 45, ordo 45";
-var goldenBagAspects_2          = "ordo 24";
 var infusionBlueprintAspects    = "aer 32, terra 32, ignis 32, aqua 32, ordo 32, perditio 32";
 var minersRingAspects           = "ordo 40, perditio 32";
 var portalGunAspects            = "perditio 24, vacuos 30, iter 24, tenebrae 21, alienis 24, praecantatio 24";
@@ -213,8 +211,6 @@ addShapedArcane(goldenBagResesrch, goldenBag, goldenBagAspects, [
     [enchFabric, goldChest, enchFabric],
     [enchFabric, goldBlock, enchFabric]
 ]);
-
-addShapelessArcane(goldenBagResesrch, goldenBag.withTag({enchanted: 1 as byte}), goldenBagAspects_2, [goldenBag, ghostlyStone, ghostlyStone, ghostlyStone, ghostlyStone]);
 
 /*
     Infusion Blueprint
