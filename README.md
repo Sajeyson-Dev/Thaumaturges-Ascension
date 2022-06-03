@@ -77,7 +77,7 @@
 *   [NotEnoughItems](https://www.curseforge.com/minecraft/mc-mods/notenoughitems)
 *   [NotEnoughResources](https://www.curseforge.com/minecraft/mc-mods/notenoughresources)
 *   [OpenBlocks](https://www.curseforge.com/minecraft/mc-mods/openblocks)
-*   [OpenModsLib)](https://www.curseforge.com/minecraft/mc-mods/openmodslib)
+*   [OpenModsLib](https://www.curseforge.com/minecraft/mc-mods/openmodslib)
 *   [Pam's HarvestCraft](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft)
 *   [Portal Gun](https://www.curseforge.com/minecraft/mc-mods/portal-gun)
 *   [Reliquary Reincarnations](https://www.curseforge.com/minecraft/mc-mods/reliquary-v1-3)
