@@ -1,6 +1,6 @@
 ## **Thaumaturge's Ascension: 1.0.6-release.**
 ### **Fixes**
-- Fixed Roguelike Dungeon custom settings not working because the CurseForge app cannot copy files that start with a dot.
+- Fixed Roguelike Dungeon custom settings not working because the CurseForge app cannot copy files whose names starts with a dot.
 
 ## **Thaumaturge's Ascension: 1.0.5-release.**
 ### **Changes**
