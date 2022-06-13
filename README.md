@@ -71,7 +71,7 @@
 *   [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
 *   [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker)
 *   [Mouse Tweaks](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks)
-*   [Natura (by mDiyo)](https://www.curseforge.com/minecraft/mc-mods/natura)
+*   [Natura](https://www.curseforge.com/minecraft/mc-mods/natura)
 *   [Nature's Compass](https://www.curseforge.com/minecraft/mc-mods/natures-compass)
 *   [Neat](https://www.curseforge.com/minecraft/mc-mods/neat)
 *   [NotEnoughItems](https://www.curseforge.com/minecraft/mc-mods/notenoughitems)
