@@ -1,0 +1,12 @@
+{
+  "_name": "nevermine.WoodGiant",
+  "drops": [
+    {
+      "function": "add",
+      "id": "nevermine:AnimaStone",
+      "count": "16~32"
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}

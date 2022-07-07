@@ -1,0 +1,12 @@
+{
+  "_name": "nevermine.Natura",
+  "drops": [
+    {
+      "function": "add",
+      "id": "nevermine:AnimaStone",
+      "count": "4~8"
+    }
+  ],
+  "pre_stats": [],
+  "stats": []
+}
