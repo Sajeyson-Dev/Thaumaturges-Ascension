@@ -8,11 +8,30 @@ import minetweaker.item.IItemStack;
 <ore:listAllgrain>.add(<Natura:barleyFood>);
 <ore:cropCotton>.add(<Natura:barleyFood:3>);
 
-<ore:listAllberry>.add(<minecraft:melon>);
-<ore:listAllberry>.add(<nevermine:NatureMelonSlice>);
-<ore:listAllfruit>.add(<minecraft:melon>);
-<ore:listAllfruit>.add(<nevermine:NatureMelonSlice>);
-<ore:listAllfruit>.add(<Natura:saguaro.fruit>);
+for stoneMaterial in [
+    <chisel:andesite>,
+    <chisel:diorite>,
+    <chisel:granite>,
+    <chisel:limestone>,
+    <chisel:marble>
+] as IItemStack[] {
+    <ore:stoneToolMaterial>.add(stoneMaterial);
+}
+
+for berry in [
+    <minecraft:melon>, 
+    <nevermine:NatureMelonSlice>
+] as IItemStack[] {
+    <ore:listAllberry>.add(berry);
+}
+
+for fruit in [
+    <minecraft:melon>, 
+    <nevermine:NatureMelonSlice>, 
+    <Natura:saguaro.fruit>
+] as IItemStack[] {
+    <ore:listAllfruit>.add(fruit);
+}
 
 for item in [
     <Natura:berry>,
@@ -59,4 +78,77 @@ for fish in [
     <nevermine:Razorfish>
 ] as IItemStack[] {
     <ore:listAllfishraw>.add(fish);
+}
+
+for powerStone in [
+    <nevermine:pStoneBlooming>,
+    <nevermine:pStoneGlaring>,
+    <nevermine:pStoneGleaming>,
+    <nevermine:pStoneGlistening>,
+    <nevermine:pStoneGlowing>,
+    <nevermine:pStoneRadiant>,
+    <nevermine:pStoneShining>,
+    <nevermine:pStoneAmbient>
+] as IItemStack[] {
+    <ore:anyPowerStone>.add(powerStone);
+}
+
+for enhancer in [
+    <nevermine:enhancerDamage>,
+    <nevermine:enhancerDurability>,
+    <nevermine:enhancerSpeed>,
+    <nevermine:enhancerWeight>,
+    <nevermine:enhancerMagical>,
+    <nevermine:enhancerResistance>
+] as IItemStack[] {
+    <ore:anyEnhancer>.add(enhancer);
+}
+
+for lamp in [
+    <nevermine:heatLamp_0>,
+    <nevermine:heatLamp_1>,
+    <nevermine:heatLamp_2>,
+    <nevermine:heatLamp_3>,
+    <nevermine:heatLamp_4>,
+    <nevermine:heatLamp_5>,
+    <nevermine:heatLamp_6>,
+    <nevermine:heatLamp_7>,
+    <nevermine:heatLamp_8>,
+    <nevermine:heatLamp_9>,
+    <nevermine:heatLamp_10>,
+    <nevermine:heatLamp_11>,
+    <nevermine:heatLamp_12>,
+    <nevermine:heatLamp_13>,
+    <nevermine:heatLamp_14>,
+    <nevermine:heatLamp_15>
+] as IItemStack[] {
+    <ore:anyLifeLamp>.add(lamp);
+}
+
+for treasureBox in [
+    <nevermine:TreasureBox>,
+    <nevermine:RuneBox>,
+    <nevermine:CrystalBox>,
+    <nevermine:WeaponsBox>
+] as IItemStack[] {
+    <ore:anyTreasureBox>.add(treasureBox);
+}
+
+for statue in [
+    <nevermine:GuardianStatueBlue>,
+    <nevermine:GuardianStatueGreen>,
+    <nevermine:GuardianStatueRed>,
+    <nevermine:GuardianStatueYellow>
+] as IItemStack[] {
+    <ore:guardianStatue>.add(statue);
+}
+
+for statue in [
+    <nevermine:HarkosStatue>,
+    <nevermine:KajarosStatue>,
+    <nevermine:MiskelStatue>,
+    <nevermine:OkazorStatue>,
+    <nevermine:RaxxanStatue>
+] as IItemStack[] {
+    <ore:primordalFiveStatue>.add(statue);
 }
