@@ -17,9 +17,11 @@ hide([
     <ExtraUtilities:microblocks>,
     <PortalGun:Portal_BlockPortal>,
     <PortalGun:Portal_BlockMulti>,
-    <cookingbook:toaster>,
     <cookingbook:toast>,
     <harvestcraft:ovenon>,
     <harvestcraft:churnon>,
-    <harvestcraft:quernon>
+    <harvestcraft:quernon>,
+    <betterquesting:placeholder>,
+    <bq_standard:loot_chest>,
+    <Mantle:mantleBook>
 ]);
