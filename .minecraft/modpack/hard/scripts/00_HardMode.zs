@@ -1,5 +1,6 @@
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
+import minetweaker.oredict.IOreDictEntry;
 import mods.thaumcraft.Arcane;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Research;
@@ -44,7 +45,7 @@ var portalGun                   = <PortalGun:PortalGunBlue>;
 var portalSpawner               = <PortalGun:PortalGunSpawner>;
 var focus                       = <Thaumcraft:FocusPortableHole>;
 var enderDust                   = <PortalGun:EnderPearlDust>;
-var powerStone                  = <nevermine:pStoneGleaming>;
+var voidNugget                  = <Thaumcraft:ItemNugget:7>;
 var ironIngot                   = <minecraft:iron_ingot>;
 var diamond                     = <minecraft:diamond>;
 var obsidian                    = <minecraft:obsidian>;
@@ -72,6 +73,8 @@ var runeOfDirection             = <nevermine:CarvedRune6>;
 var unstableIngot               = <ExtraUtilities:unstableingot>;
 var unstableNugget              = <ExtraUtilities:unstableingot:1>;
 var stableIngot                 = <ExtraUtilities:unstableingot:2>;
+
+var anyPowerStone               = <ore:anyPowerStone>;
 
 var angelRingAspects            = "aer 97, ordo 97, terra 72";
 var bloodAccumulatorAspects     = "aer 42, aqua 42, ordo 42";
@@ -226,29 +229,17 @@ addShapedArcane(infusionBlueprintResearch, infusionBlueprint, infusionBlueprintA
     Miner's Ring
 */
 
-for stone in [
-    <nevermine:pStoneGlistening>, 
-    <nevermine:pStoneGleaming>, 
-    <nevermine:pStoneAmbient>, 
-    <nevermine:pStoneGlaring>, 
-    <nevermine:pStoneGlowing>, 
-    <nevermine:pStoneShining>, 
-    <nevermine:pStoneRadiant>, 
-    <nevermine:pStoneBlooming>
-] as IItemStack[] {
-    addShapedArcane(minersRingResearch, minersRing, minersRingAspects, [
-        [null, stone, null],
-        [stone, ringBase, stone],
-        [null, stone, null]
-    ]);
-}
+addShapedArcane(minersRingResearch, minersRing, minersRingAspects, [
+    [null, anyPowerStone, null],
+    [anyPowerStone, ringBase, anyPowerStone],
+    [null, anyPowerStone, null]
+]);
 
 /*
     Portal Gun
 */
 
-addInfusion(portalGunResearch, focus, [
-    powerStone, powerStone, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust], 
+addInfusion(portalGunResearch, focus, [voidNugget, voidNugget, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust], 
     portalGunAspects, blackHole, 6);
 
 // CraftTweaker, Thaumcraft and PortalGun are friend-ish now...

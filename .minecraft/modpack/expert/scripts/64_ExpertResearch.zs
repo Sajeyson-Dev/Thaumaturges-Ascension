@@ -75,13 +75,9 @@ function addIPage(research as string, item as IItemStack) as void {
     Research.addInfusionPage(research, item);
 }
 
-function setUlockable(research as string, aspects as string) as void {
+function setUnlockable(research as string, aspects as string) as void {
     Research.setSecondary(research, true);
     Research.setAspects(research, aspects);
-}
-
-function addSibling(research as string, research_1 as string) as void {
-    Research.addSibling(research, research_1);
 }
 
 function isSpikey(research as string) as void {
@@ -100,9 +96,10 @@ function addWarp(research as string, warp as int) as void {
     Angel Ring
 */
 
-newResearch(angelRing, "ARTIFICE", true, "aer 1, terra 1, ordo 1, volatus 1, iter 1, humanus 1, potentia 1, lucrum 1, motus 1, cognitio 1, sensus 1", 2, 8, 10, <ExtraUtilities:angelRing>);
+newResearch(angelRing, "ARTIFICE", true, "aer 1, terra 1, ordo 1, volatus 1, iter 1, humanus 1, potentia 1, lucrum 1, motus 1, cognitio 1, sensus 1", 2, 8, 10, angelRings[0]);
 addReq(angelRing, "HOVERHARNESS");
-addSibling(angelRing, "VOIDMETAL");
+addReq(angelRing, "VOIDMETAL");
+addReq(angelRing, unstableIngot);
 for ring in angelRings {
     addAPage(angelRing, ring);
 }
@@ -122,7 +119,7 @@ addAPage(bloodAccumulator, bloodAccumulatorItem);
 
 newResearch(goldenBag, "ARTIFICE", true, "pannus 1, ordo 1, lucrum 1, humanus 1, cognitio 1", -2, 1, 10, goldenBagItem);
 addReq(goldenBag, "ENCHFABRIC");
-addSibling(goldenBag, "THAUMIUM");
+addReq(goldenBag, "THAUMIUM");
 addAPage(goldenBag, goldenBagItem);
 
 /*
@@ -131,7 +128,7 @@ addAPage(goldenBag, goldenBagItem);
 
 newResearch(infusionBlueprint, "ARTIFICE", false, "praecantatio 1, potentia 1, auram 1, cognitio 1, machina 1", -1, -5, 10, infusionBlueprintItem);
 addReq(infusionBlueprint, "ARCTABLE");
-addSibling(infusionBlueprint, "THAUMIUM");
+addReq(infusionBlueprint, "THAUMIUM");
 addAPage(infusionBlueprint, infusionBlueprintItem);
 
 /*
@@ -148,7 +145,8 @@ addAPage(minersRing, minersRingItem);
 
 newResearch(portalGun, "ARTIFICE", true, "vacuos 1, perditio 1, iter 1, alienis 1, praecantatio 1, tenebrae 1, permutatio 1, sensus 1, motus 1", -4, 10, 10, portalGunItem);
 addReq(portalGun, "INFUSION");
-addSibling(portalGun, "FOCUSPORTABLEHOLE");
+addReq(portalGun, "FOCUSPORTABLEHOLE");
+addReq(portalGun, "VOIDMETAL");
 addIPage(portalGun, blackHoleItem);
 addCPage(portalGun, portalSpawnerItem);
 addCPage(portalGun, portalGunItem);
@@ -158,7 +156,7 @@ addWarp(portalGun, 1);
     Runes
 */
 
-newResearch(runes, "ARTIFICE", true, "iter 1, praecantatio 1, sensus 1, motus 1, vacuos 1", -4, 0, 10, <nevermine:CarvedRune4>);
+newResearch(runes, "ARTIFICE", true, "iter 1, praecantatio 1, sensus 1, motus 1, vacuos 1", -4, 0, 10, runesItem[0]);
 addReq(runes, "INFUSION");
 for rune in runesItem {
     addIPage(runes, rune);
@@ -171,7 +169,7 @@ addPage(runes, runes + ".2");
 */
 
 newResearch(unstableIngot, "ARTIFICE", false, "praecantatio 1, potentia 1, perditio 1, metallum 1, mortuus 1, lucrum 1", -5, 0, 0, unstableIngotItem);
-setUlockable(unstableIngot, "mortuus 40, perditio 90, metallum 24");
+setUnlockable(unstableIngot, "mortuus 40, perditio 90, metallum 24");
 addAPage(unstableIngot, unstableIngotItem);
 
 newResearch(unstableNugget, "ARTIFICE", true, "ordo 1, metallum 1, cognitio 1", -5, 2, 10, unstableNuggetItem);
