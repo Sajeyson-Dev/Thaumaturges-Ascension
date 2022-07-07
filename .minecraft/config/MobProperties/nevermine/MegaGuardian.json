@@ -1,0 +1,27 @@
+{
+    "_name": "nevermine.MegaGuardian",
+    "drops": [
+      {
+        "function": "add",
+        "id": "nevermine:MegaRuneFragmentB",
+        "count": "0.2"
+      },
+      {
+        "function": "add",
+        "id": "nevermine:MegaRuneFragmentY",
+        "count": "0.2"
+      },
+      {
+        "function": "add",
+        "id": "nevermine:MegaRuneFragmentR",
+        "count": "0.2"
+      },
+      {
+        "function": "add",
+        "id": "nevermine:MegaRuneFragmentG",
+        "count": "0.2"
+      }
+    ],
+    "pre_stats": [],
+    "stats": []
+  }
