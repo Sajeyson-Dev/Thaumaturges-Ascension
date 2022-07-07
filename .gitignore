@@ -10,7 +10,7 @@ mmc-pack.json
 /.minecraft/asm/
 /.minecraft/backups/
 /.minecraft/coremods/
-/.minecraft/crash-reorts/
+/.minecraft/crash-reports/
 /.minecraft/journeymap/data/
 /.minecraft/journeymap/icon/
 /.minecraft/journeymap/*.html
