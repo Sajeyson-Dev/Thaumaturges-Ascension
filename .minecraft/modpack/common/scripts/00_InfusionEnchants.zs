@@ -17,8 +17,6 @@ var Archmage        = 106;
 var Windfury        = 107;
 var Slice           = 108;
 var Intervention    = 109;
-var Reading         = 196;
-var EternalCompass  = 197;
 var Unstable        = 211;
 var LastStand       = 212;
 var FlimFlam        = 213;
@@ -35,7 +33,7 @@ addInfusionEnch(Overpower, 3, "praecantatio 4, motus 8, auram 8", [<Thaumcraft:I
 addInfusionEnch(Crush, 3, "praecantatio 4, telum 10, potentia 10, perditio 8", [<Thaumcraft:ItemResource:14>, <minecraft:piston>, <minecraft:piston>, <minecraft:piston>]);
 addInfusionEnch(Sever, 3, "praecantatio 4, telum 10, potentia 10", [<Thaumcraft:ItemResource:14>, <nevermine:LimoniteSword>]);
 addInfusionEnch(Archmage, 5, "praecantatio 4, ordo 8, telum 8", [<Thaumcraft:ItemResource:14>, <nevermine:RuniumChunkCharged>, <nevermine:RuneShrine>]);
-addInfusionEnch(Windfury, 3, "praecantatio 4, motus 10, iter 10, meto 5", [<Thaumcraft:ItemResource:14>, <nevermine:SpeedBoots>, <nevermine:OpteryxFeather>,<nevermine:OpteryxFeather>]);
+addInfusionEnch(Windfury, 3, "praecantatio 4, motus 10, iter 10, meto 5", [<Thaumcraft:ItemResource:14>, <nevermine:OpteryxFeather>,<nevermine:OpteryxFeather>]);
 addInfusionEnch(Slice, 3, "praecantatio 4, telum 12, potentia 10, meto 5", [<Thaumcraft:ItemResource:14>, <nevermine:TrollSkull>]);
 addInfusionEnch(Intervention, 6, "praecantatio 48, spiritus 30, ordo 42, mortuus 45", [<Thaumcraft:ItemResource:14>, <nevermine:GhostStone>, <nevermine:GhostStone>, <nevermine:GhostStone>]);
 addInfusionEnch(Unstable, 10, "praecantatio 4, perditio 8, mortuus 4", [<Thaumcraft:ItemResource:14>, <ExtraUtilities:unstableingot:1>, <ExtraUtilities:unstableingot:1>]);
