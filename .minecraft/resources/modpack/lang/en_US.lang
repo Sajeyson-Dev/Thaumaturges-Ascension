@@ -1,22 +1,34 @@
 
 item.tiny_coal.name=Tiny Coal
 item.tiny_charcoal.name=Tiny Charoal
+item.exchanging_tome.name=§3Exchanging Tome
 
 tooltip.wawla.missingEnch=
 tooltip.wawla.shiftEnch=Hold the Sneak key for Enchantment Description
 
+tile.sand.name=Sand
+tile.dirt.name=Dirt
+tile.null.name=End Portal
 tile.chisel.sandstone2.name=Sandstone
 tile.sandstone.16.desc=Just a block
 tile.sandstone.17.desc=Just a block
+tile.cookingbook:toaster.name=Toaster
+cookingbook:toaster.tooltipDesc=Place the bread in and shift right-click to start toasting!
 
 entity.nevermine.Luxocron.name=Luxocron
 entity.testdummy.Dummy.name=Test Dummy
 entity.PortalGun.portal_entityradio.name=Radio
 entity.PortalGun.portal_entitycube.name=Weighted Storage Cube
 entity.PortalGun.portal_entityblock.name=Do you see this?
+entity.CarpentersBlocks.CarpentersTile.name=Carpenter's Tile
+entity.betterboat.betterBoat.name=Boat
+entity.MinecartRideable.name=Minecart
+entity.MinecartHopper.name=Minecart with Hopper
+entity.MinecartTNT.name=Minecart with TNT
+entity.MinecartFurnace.name=Minecart with Furnace
+entity.MinecartChest.name=Minecart with Chest
 
-tile.sand.name=Sand
-tile.dirt.name=Dirt
+block..NLeaves.name=Hopseed Leaves
 
 key.craftingGrid=Disabled
 key.control=Disabled
