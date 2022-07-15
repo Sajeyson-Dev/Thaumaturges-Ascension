@@ -13,6 +13,7 @@
 * Custom Roguelike Dungeons.
 * Custom Items.
 * Custom Achievements (22).
+* Over 8000 script lines to make everything perfect as possible.
 * **Lots** of tweaks and bug fixes.
 
 ***Run /ftb_mode set 'modename' to switch modes. The modes are per world.***
