@@ -74,3 +74,4 @@ Thaumcraft Attributes (tc.mobmod) ID:
  - 10 poison
  - 11 vampiric
  - 12 taintInfected
+ - 13 or above crashes the game
