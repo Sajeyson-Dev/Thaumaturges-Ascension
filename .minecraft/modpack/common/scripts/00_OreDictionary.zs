@@ -1,4 +1,5 @@
 import minetweaker.item.IItemStack;
+import minetweaker.oredict.IOreDictEntry;
 
 /*
     Author: Sajeyson
@@ -80,6 +81,19 @@ for fish in [
     <ore:listAllfishraw>.add(fish);
 }
 
+for infusionStone in [
+    <nevermine:iStoneBlooming>,
+    <nevermine:iStoneGlaring>,
+    <nevermine:iStoneGleaming>,
+    <nevermine:iStoneGlistening>,
+    <nevermine:iStoneGlowing>,
+    <nevermine:iStoneRadiant>,
+    <nevermine:iStoneShining>,
+    <nevermine:iStoneAmbient>
+] as IItemStack[] {
+    <ore:anyInfusionStone>.add(infusionStone);
+}
+
 for powerStone in [
     <nevermine:pStoneBlooming>,
     <nevermine:pStoneGlaring>,
@@ -151,4 +165,14 @@ for statue in [
     <nevermine:RaxxanStatue>
 ] as IItemStack[] {
     <ore:primordalFiveStatue>.add(statue);
+}
+
+for statue in [
+    <nevermine:SkeletorStatue>,
+    <nevermine:SkeleelderStatue>,
+    <nevermine:SkelepigStatue>,
+    <nevermine:SkelemanStatue>,
+    <nevermine:SkeleHopperStatue>
+] as IItemStack[] {
+    <ore:skeletalStatue>.add(statue);
 }
