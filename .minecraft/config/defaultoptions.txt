@@ -101,6 +101,7 @@ key_key.skillnameright:205
 key_key.lognot:45
 key_key.exped:200
 key_cos.key.openCosArmorInventory:0
+key_key.betterquesting.quests:41
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
