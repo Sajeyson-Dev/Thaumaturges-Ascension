@@ -20,7 +20,7 @@
 
 ***Run /ftb_mode set 'modename' to switch modes. The modes are per world.***
 
-<p style="text-align:center"> Preview </p>
+**Preview:**
 
 ![Thaumonomicon](https://user-images.githubusercontent.com/42738314/152646868-4b8913b6-b432-49cf-b78a-00d068e09fac.png)
 
