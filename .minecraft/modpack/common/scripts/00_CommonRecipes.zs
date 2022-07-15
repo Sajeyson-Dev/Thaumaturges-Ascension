@@ -43,6 +43,16 @@ global lavaBucket           as IItemStack = <minecraft:lava_bucket>;
 global salisMundus          as IItemStack = <Thaumcraft:ItemResource:14>;
 global book                 as IItemStack = <minecraft:book>;
 global ghostlyStone         as IItemStack = <nevermine:GhostStone>;
+global eucadonLog           as IItemStack = <nevermine:WoodEucadon>;
+global melumiaLog           as IItemStack = <nevermine:WoodMelumia>;
+global domiguousLog         as IItemStack = <nevermine:WoodDomiguous>;
+global opolloLog            as IItemStack = <nevermine:WoodOpollo>;
+global eucadonPlanks        as IItemStack = <nevermine:planksEucadon>;
+global melumiaPlanks        as IItemStack = <nevermine:planksMelumia>;
+global domiguousPlanks      as IItemStack = <nevermine:planksDomiguous>;
+global opolloPlanks         as IItemStack = <nevermine:planksOpollo>;
+global bakeware             as IItemStack = <harvestcraft:bakewareItem>;
+
 
 /*
     Ingots
@@ -207,20 +217,44 @@ remove([
     <ExtraUtilities:extractor_base:13>,
     <ExtraUtilities:pipes:11>,
     <ExtraUtilities:pipes:14>,
-    <ExtraUtilities:trashcan:2>
+    <ExtraUtilities:trashcan:2>,
+    <ewysworkshop:WorkshopTableUpgrade:8>
 ]);
 
 removeAndHide([
+    <Natura:natura.sword.ghostwood>,
+    <Natura:natura.pickaxe.ghostwood>,
+    <Natura:natura.shovel.ghostwood>,
+    <Natura:natura.axe.ghostwood>,
+    <Natura:natura.sword.bloodwood>,
+    <Natura:natura.pickaxe.bloodwood>,
+    <Natura:natura.shovel.bloodwood>,
+    <Natura:natura.axe.bloodwood>,
+    <Natura:natura.sword.darkwood>,
+    <Natura:natura.pickaxe.darkwood>,
+    <Natura:natura.shovel.darkwood>,
+    <Natura:natura.axe.darkwood>,
+    <Natura:natura.sword.fusewood>,
+    <Natura:natura.pickaxe.fusewood>,
+    <Natura:natura.shovel.fusewood>,
+    <Natura:natura.axe.fusewood>,
+    <Natura:natura.sword.netherquartz>,
+    <Natura:natura.pickaxe.netherquartz>,
+    <Natura:natura.shovel.netherquartz>,
+    <Natura:natura.axe.netherquartz>,
+    <Natura:natura.kama.netherquartz>,
+    <Natura:natura.kama.ghostwood>,
+    <Natura:natura.kama.bloodwood>,
+    <Natura:natura.kama.darkwood>,
+    <Natura:natura.kama.fusewood>,
+    <Natura:natura.bow.ghostwood>,
+    <Natura:natura.bow.bloodwood>,
+    <Natura:natura.bow.darkwood>,
+    <Natura:natura.bow.fusewood>,
     <harvestcraft:sink:1>,
     <harvestcraft:chocolaterollItem>,
-    <xreliquary:heart_pearl>,
-    <xreliquary:heart_pearl:1>,
-    <xreliquary:heart_pearl:2>,
-    <xreliquary:heart_pearl:3>,
-    <xreliquary:heart_zhu>,
-    <xreliquary:heart_zhu:1>,
-    <xreliquary:heart_zhu:2>,
-    <xreliquary:heart_zhu:3>,
+    <xreliquary:heart_pearl:*>,
+    <xreliquary:heart_zhu:*>,
     <xreliquary:rending_gale>,
     <betterquesting:submit_station>,
     <betterquesting:extra_life>,
@@ -242,7 +276,8 @@ addShaped(stick * 16, [
 
 addShapeless(flint, [gravel]);
 
-addShapeless(cake, [milk, milk, milk, egg, sugar, sugar, dough, dough, <harvestcraft:bakewareItem>]);
+addShapeless(bread, [dough, bakeware]);
+addShapeless(cake, [milk, milk, milk, egg, sugar, sugar, dough, dough, bakeware]);
 
 addShaped(angelicFeather, [
     [crystal, glowstone, crystal],
@@ -349,6 +384,11 @@ addShaped(<minecraft:furnace>, [
     [stoneToolMaterial, null, stoneToolMaterial],
     [stoneToolMaterial, stoneToolMaterial, stoneToolMaterial]
 ]);
+
+addShapeless(eucadonPlanks * 4, [eucadonLog]);
+addShapeless(melumiaPlanks * 4, [melumiaLog]);
+addShapeless(domiguousPlanks * 4, [domiguousLog]);
+addShapeless(opolloPlanks * 4, [opolloLog]);
 
 /*
     Furnace recipes
