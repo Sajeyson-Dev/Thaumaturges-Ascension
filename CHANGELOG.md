@@ -7,7 +7,7 @@
 - Added 22 new achievements.
 - Added tooltips for Advent of Ascension mob drops.
 - Added info about Pixons in the guide.
-- Added custom splash text in mainmenu.
+- Added custom splash text in the mainmenu.
 - #### Added Mods
   - Better Questing
   - Better Questing - Standart Expansion.
