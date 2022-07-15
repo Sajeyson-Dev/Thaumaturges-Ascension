@@ -1,7 +1,7 @@
 {
     "name": "tower",
     "tower": {
-        "type": "ROGUE",
+        "type": "WITCH",
         "theme": {
             "primary": {
                 "walls": {
