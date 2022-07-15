@@ -1,27 +1,27 @@
 §3§lObtaining Realmstones
 
-§3Precasia Realmstone §r- §2Dropped from Bush Baby, Stinger, and Terradon.
-§3Abyss Realmstone §r- §2Dropped from Anemia, Bloodmist, Trickster, Slimer, and Linger.
-§3Haven Realmstone §r- §2Dropped from Magicke, Goalby, and Voliant.
-§3Mysterium Realmstone §r- §2Dropped from Bugeye, and Fungung.
-§3Deeplands Realmstone §r- §2Dropped from Clown, Ghost, Faceless Runner, Shade, Trickster, and Doubler.
-§3Celeve Realmstone §r- §2Dropped from Clown, and Jumbo.
-§3Gardencia Realmstone §r- §2Dropped from Giant Slug, Dyrehorn, and Sunny.
+§3Precasia Realmstone §r- §2Dropped from Bush Baby, Stinger and Terradon.
+§3Abyss Realmstone §r- §2Dropped from Anemia, Bloodmist, Trickster, Slimer and Linger.
+§3Haven Realmstone §r- §2Dropped from Magicke, Goalby and Voliant.
+§3Mysterium Realmstone §r- §2Dropped from Bugeye and Fungung.
+§3Deeplands Realmstone §r- §2Dropped from Clown, Ghost, Faceless Runner, Shade, Trickster and Doubler.
+§3Celeve Realmstone §r- §2Dropped from Clown and Jumbo.
+§3Gardencia Realmstone §r- §2Dropped from Giant Slug, Dyrehorn and Sunny.
 §3Immortalis Realmstone §r- §2Dropped from Death Hunter.
-§3Creeponia Realmstone §r- §2Dropped from Host, and King Creeper.
-§3Iromine Realmstone §r- §2Dropped from Dweller, and Mechachron. Also drops as Foraging loot at level 55.
-§3L'Borean Realmstone §r- §2Dropped from Treasure Box, Corallus, and Neptuno.
-§3Vox Ponds Realmstone §r- §2Dropped from Flower Face, Squasher, Exoid, and Pod Plant.
-§3Barathos Realmstone §r- §2Dropped from Bouncer, Eilosapien, and Paladin.
-§3Dustopia Realmstone §r- §2Dropped from Hunter, Grillface, Shifter, and Stalker Prime.
-§3Lelyetia Realmstone §r- §2Dropped from Grobbler, Seeker, and Surveyor.
-§3Ancient Cavern Realmstone §r- §2Dropped from Automaton, Flower Face, Bloodsucker, and Rock Critter. 
-§3Crystevia Realmstone §r- §2Dropped from Case Construct, and Construct of Mind.
-§3Candyland Realmstone §r- §2Dropped from Chocko, Sticky, Koko, and Cherry Blaster.
-§3Shyrelands Realmstone §r- §2Dropped from Lost Soul, and Stimulosus.
+§3Creeponia Realmstone §r- §2Dropped from Host and King Creeper.
+§3Iromine Realmstone §r- §2Dropped from Dweller and Mechachron. Also drops as Foraging loot at level 55.
+§3L'Borean Realmstone §r- §2Dropped from Treasure Box, Corallus and Neptuno.
+§3Vox Ponds Realmstone §r- §2Dropped from Flower Face, Squasher, Exoid and Pod Plant.
+§3Barathos Realmstone §r- §2Dropped from Bouncer, Eilosapien and Paladin.
+§3Dustopia Realmstone §r- §2Dropped from Hunter, Grillface, Shifter and Stalker Prime.
+§3Lelyetia Realmstone §r- §2Dropped from Grobbler, Seeker and Surveyor.
+§3Ancient Cavern Realmstone §r- §2Dropped from Automaton, Flower Face, Bloodsucker and Rock Critter. 
+§3Crystevia Realmstone §r- §2Dropped from Case Construct and Construct of Mind.
+§3Candyland Realmstone §r- §2Dropped from Chocko, Sticky, Koko and Cherry Blaster.
+§3Shyrelands Realmstone §r- §2Dropped from Lost Soul and Stimulosus.
 
-§3§lTeleportation to Greckon, Runador and Lunalus
+§3§lTeleportation to Greckon, Runandor and Lunalus
 
-Greckon and Runador portals can be found in the Mysterium dimension on the Portal Tower structure. You also need to buy Realm Travel Ticket from the Portal Master, which stands near the portals.
+Greckon and Runandor portals can be found in the Mysterium dimension on the Portal Tower structure. You also need to buy Realm Travel Ticket from the Portal Master, which stands near the portals.
 
-Killing Terrestrial in the Overworld will create a portal structure that leads to Lunalus. Terrestrial is a very rare mob that spawns during Full Moon Event in the Overworld.
+Killing Terrestrial in the Overworld will create a portal structure that leads to Lunalus. §6Terrestrial is a very rare mob that spawns during Full Moon Event in the Overworld.

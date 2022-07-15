@@ -14,7 +14,7 @@
 §3Dracyon §r- §2Call of the Drake §r- §6Dracyon Altar §r- §6Dracyon Platform §r- §8L'Borean §r- None
 §3Hive King §r- §2Hive Chunk §r- §6Hive Spawner §r- §6Baron Hive §r- §8Barathos §r- None
 §3Silverfoot §r- §2Silvro Coin §r- §6Silverfoot Altar §r- §6Iro Maze §r- §8Iromine §r- None
-§3Kror §r- §2Boulder Dash §r- §6Kror Altar §r- §6Kror Pillar §r- Deeplands §r- None
+§3Kror §r- §2Boulder Dash §r- §6Kror Altar §r- §6Kror Pillar §r- §8Deeplands §r- None
 §3Shadowlord §r- §2Book of Shadows §r- §6Shadowlord Altar §r- §6Shadowlord Platform §r- §8The Abyss §r- None
 §3Primordal Five §r- §2Primordal Dust §r- §6Primordal Shrine §r- §6Primordal Shrine (structure) §r- §8Dustopia §r- None
 §3Elusive §r- §2Staring Eye §r- §6Illusion Altar §r- §6Illusion Tree §r- §8The Abyss §r- 35
@@ -27,7 +27,7 @@
 §3Four Guardians §r- §2Voliant Heart §r- §6Guardian Altar §r- §6Guardian's Tower §r- §8The Haven §r- None
 §3MechBot §r- §2Bloodstone §r- §6MechBot Altar §r- §6MechBot Charging Station §r- §8Iromine §r- None
 §3C.R.E.E.P §r- §2Explosive Gems §r- §6Greep Altar §r- §6Creper HQ §r- §8Creeponia §r- None 
-§3Clunkhead §r- §2Mega Rune Stone §r- §6Clunkhead Altar §r- §6Clunkhead Arena §r- §8Runador §r- None
+§3Clunkhead §r- §2Mega Rune Stone §r- §6Clunkhead Altar §r- §6Clunkhead Arena §r- §8Runandor §r- None
 §3Cotton Candor §r- §2Treat Bag §r- §6Candy Block §r- §6Cotton Candy Tower §r- §8Candyland §r- None
 §3Visualent §r- §2Observing Eye §r- §6Visualent Altar §r- §6Observer's Eye (structure) §r- §8Lunalus §r- None
 §3Voxxulon §r- §2Vile Stone §r- §6Voxxulon Altar §r- §6Voxxulon Platform §r- §8Vox Ponds §r- None
@@ -36,7 +36,7 @@
 §3A few notes:
 §2§o- Corallus has a 2% chance to spawn when the player kills Amphibiyte. Amphibiyte spawns inside Amphibiyte Caves, which can be found on the beaches of Overworld.
 §2§o- Tyrosaur, Baroness and MechBot will drop nothing.
-§2§o- Cotton Candor immune to all damage except basic staves: Wind, Water, Fire, Poison, Wither and Noxious Staff (depends on it's current bottom color). Last one will destroy him.
+§2§o- Cotton Candor immune to all damage except damage from basic staves: Wind, Water, Fire, Poison, Wither and Noxious Staff (depends on it's current bottom color). Last one will destroy him.
 §2§o- Almost all bosses drop hunter experience only if player has 30 hunter level of above.
 
 §3Ancient Cavern Bosses

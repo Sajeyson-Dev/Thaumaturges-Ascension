@@ -3,7 +3,7 @@
 - Unlocks Ancient Cavern bosses.
 
 §3Getting Augury XP:
-- XP can be gained by using Essences on the Ascension Shrine.
+- XP can be gained by using essences on the Ascension Shrine.
 
 §2Augury level §r- §6Result:
 
@@ -14,3 +14,9 @@
 §2- 70    §r-    §616 Soul Power
 §2- 85    §r-    §616 Creation
 §2- 90    §r-    §620 Soul Power
+
+§2Additionally, essences can be created on the Crystal Extension Shrine from the Cristevia crystals.
+
+§6Empowered Essence x8 - Augury lvl 36 
+§6Dark Essence x8 - Augury lvl 66
+§6Divine Essence x8 - Augury lvl 84
