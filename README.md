@@ -5,19 +5,33 @@
 **Features:**
 
 * Custom thaumonomicon research pages.
+* Quests
 * Added over 3000 missing aspects for blocks/items.
 * Added over 600 missing aspects for mobs.
 * Normal, Hard and Expert modes, which affect recipes, vis cost, and research difficulty.
 * Ingame wiki/guide.
 * Custom Roguelike Dungeons.
-* **Lots** of tweaks.
+* Custom Items.
+* Custom Achievements (22).
+* **Lots** of tweaks and bug fixes.
 
-***Run /ftb_mode set 'modename' to switch modes. The modes are local, and per world.***
+***Run /ftb_mode set 'modename' to switch modes. The modes are per world.***
 
-**Preview:**
+<p style="text-align:center"> Preview </p>
+
 ![Thaumonomicon](https://user-images.githubusercontent.com/42738314/152646868-4b8913b6-b432-49cf-b78a-00d068e09fac.png)
 
 ![Ancient Teleportation](https://user-images.githubusercontent.com/42738314/152646920-a13a1738-88a8-4274-ab7a-91f649f4bc61.png)
+
+![Quest Book](https://media.forgecdn.net/attachments/477/48/2022-07-15_11.png)
+
+![Quests 1](https://media.forgecdn.net/attachments/477/49/2022-07-15_11.png)
+
+![Quests 2](https://media.forgecdn.net/attachments/477/50/2022-07-15_11.png)
+
+![Quests 3](https://media.forgecdn.net/attachments/477/51/2022-07-15_11.png)
+
+![Quests 4](https://media.forgecdn.net/attachments/477/52/2022-07-15_11.png)
 
 ![Guide](https://user-images.githubusercontent.com/42738314/152646931-741e2350-79e1-4a46-b143-b65046654735.png)
 
@@ -30,6 +44,9 @@
 *   [AppleCore](https://www.curseforge.com/minecraft/mc-mods/applecore)
 *   [ArmorStatusHUD](https://www.curseforge.com/minecraft/mc-mods/armorstatushud)
 *   [Better Boat](https://www.curseforge.com/minecraft/mc-mods/better-boat)
+*   [Block Properties](https://www.curseforge.com/minecraft/mc-mods/block-properties)
+*   [Better Questing](https://www.curseforge.com/minecraft/mc-mods/better-questing)
+*   [Better Questing - Standard Expansion](https://www.curseforge.com/minecraft/mc-mods/better-questing-standard-expansion)
 *   [BiblioCraft](https://www.curseforge.com/minecraft/mc-mods/bibliocraft)
 *   [BiblioCraft: BiblioWoods Natura Edition](https://www.curseforge.com/minecraft/mc-mods/bibliocraft-bibliowoods-natura-edition)
 *   [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf)
@@ -45,13 +62,14 @@
 *   [CraftTweaker](https://www.curseforge.com/minecraft/mc-mods/crafttweaker)
 *   [Custom Main Menu](https://www.curseforge.com/minecraft/mc-mods/custom-main-menu)
 *   [CustomThings](https://www.curseforge.com/minecraft/mc-mods/customthings)
+*   [CleanView](https://www.curseforge.com/minecraft/mc-mods/cleanview)
 *   [Default Options](https://www.curseforge.com/minecraft/mc-mods/default-options)
 *   [Ding](https://www.curseforge.com/minecraft/mc-mods/ding)
 *   [Dynamic Surroundings](https://www.curseforge.com/minecraft/mc-mods/dynamic-surroundings)
-*   [Edit Mob Drops](https://www.curseforge.com/minecraft/mc-mods/edit-mob-drops)
 *   [Ender Storage](https://www.curseforge.com/minecraft/mc-mods/ender-storage)
 *   [EnderCore](https://www.curseforge.com/minecraft/mc-mods/endercore)
 *   [Extra Utilities](https://www.curseforge.com/minecraft/mc-mods/extra-utilities)
+*   [Ewy's Workshop](https://www.curseforge.com/minecraft/mc-mods/ewys-workshop)
 *   [Fast Leaf Decay](https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay)
 *   [FastCraft](https://www.curseforge.com/minecraft/mc-mods/fastcraft)
 *   [Forge Multi Part](https://www.curseforge.com/minecraft/mc-mods/forge-multi-part)
@@ -67,6 +85,7 @@
 *   [It's the little things](https://www.curseforge.com/minecraft/mc-mods/its-the-little-things)
 *   [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
 *   [Login Shield](https://www.curseforge.com/minecraft/mc-mods/login-shield)
+*   [Mob Properties](https://www.curseforge.com/minecraft/mc-mods/mob-properties)
 *   [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)
 *   [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)
 *   [ModTweaker](https://www.curseforge.com/minecraft/mc-mods/modtweaker)
