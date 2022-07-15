@@ -1,11 +1,11 @@
 {
-  "_name": "minecraft:reeds",
+  "_name": "minecraft:cactus",
   "stats": {
     "opacity": 0,
     "brightness": 0,
-    "hardness": 0.0,
-    "resistance": 0.0,
-    "sound": "grass",
+    "hardness": 0.4,
+    "resistance": 2.0,
+    "sound": "cloth",
     "slipperiness": 0.6,
     "tool_data": []
   },
@@ -14,7 +14,7 @@
     {
       "function": "add",
       "id": "nevermine:AnimaStone",
-      "count": "0.5"
+      "count": "0.1"
     }
   ],
   "harvest": [],

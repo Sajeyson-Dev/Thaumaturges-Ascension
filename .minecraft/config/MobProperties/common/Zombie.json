@@ -441,7 +441,7 @@
     },
     {
       "function": "all",
-      "count": 0.01,
+      "count": 0.02,
       "functions": [
         {
           "function": "nbt",
@@ -548,11 +548,6 @@
             {
               "function": "add",
               "id": "nevermine:GoldCoin",
-              "count": "1"
-            },
-            {
-              "function": "add",
-              "id": "nevermine:MagicRepairDust",
               "count": "1"
             }
           ]
@@ -785,7 +780,7 @@
     },
     {
       "function": "all",
-      "count": 0.01,
+      "count": 0.02,
       "functions": [
         {
           "function": "nbt",
@@ -892,11 +887,6 @@
             {
               "function": "add",
               "id": "nevermine:GoldCoin",
-              "count": "1"
-            },
-            {
-              "function": "add",
-              "id": "nevermine:MagicRepairDust",
               "count": "1"
             }
           ]

@@ -141,16 +141,6 @@
                     "weight": 40,
                     "function": "add",
                     "id": "minecraft:slime_ball"
-                },
-                {
-                    "weight": 20,
-                    "function": "add",
-                    "id": "nevermine:AnimaStone"
-                },
-                {
-                    "weight": 20,
-                    "function": "add",
-                    "id": "nevermine:HeartStone"
                 }
             ]
         }
