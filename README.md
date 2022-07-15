@@ -11,8 +11,10 @@
 * Normal, Hard and Expert modes, which affect recipes, vis cost, and research difficulty.
 * Ingame wiki/guide.
 * Custom Roguelike Dungeons.
+* Custom Mobs.
 * Custom Items.
 * Custom Achievements (22).
+* Custom boss.
 * Over 8000 script lines to make everything perfect as possible.
 * **Lots** of tweaks and bug fixes.
 
