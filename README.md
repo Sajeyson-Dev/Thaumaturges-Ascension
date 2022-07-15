@@ -2,8 +2,8 @@
 
 **This modpack is a combination of a full hardcore adventure with Thaumcraft research system.**
 
-**Features:**
-
+**Features**
+---
 * Custom thaumonomicon research pages.
 * Quests
 * Added over 3000 missing aspects for blocks/items.
@@ -20,7 +20,8 @@
 
 ***Run /ftb_mode set 'modename' to switch modes. The modes are per world.***
 
-**Preview:**
+**Preview**
+---
 
 ![Thaumonomicon](https://user-images.githubusercontent.com/42738314/152646868-4b8913b6-b432-49cf-b78a-00d068e09fac.png)
 
