@@ -2,7 +2,7 @@
   "backups": {
     "backup_timer": 0.5,
     "backups_to_keep": 12,
-    "compression_level": 1,
+    "compression_level": 2,
     "display_file_size": true,
     "enabled": true,
     "folder": "./backups/",
@@ -32,7 +32,8 @@
   },
   "login": {
     "motd": [
-      "Welcome to Thaumaturge\u0027s Ascension!"
+      "Welcome to the Thaumaturge\u0027s Ascension!",
+      "§3Press \u0027grave\u0027 key (by default) to open quests."
     ],
     "starting_items": [
       "harvestcraft:coconutItem 1 0"
