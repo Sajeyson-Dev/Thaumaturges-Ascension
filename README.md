@@ -5,7 +5,7 @@
 **Features**
 ---
 * Custom thaumonomicon research pages.
-* Quests
+* Quests.
 * Added over 3000 missing aspects for blocks/items.
 * Added over 600 missing aspects for mobs.
 * Normal, Hard and Expert modes, which affect recipes, vis cost, and research difficulty.
