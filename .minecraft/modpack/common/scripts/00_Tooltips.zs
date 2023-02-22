@@ -4,6 +4,8 @@ import minetweaker.item.IItemStack;
     Author: sajeyson012
 */
 
+#category Functions
+
 function addTooltip(item as IItemStack, tooltip as string) as void {
 	item.addTooltip(format.gray(tooltip));
 }
@@ -55,7 +57,6 @@ function addWorldGenTooltip(item as IItemStack, dimension as string, Ylvl as str
 function addStrangeTooltip(item as IItemStack, tooltip as string, tooltip_1 as string) as void {
     item.addShiftTooltip(format.darkGray(tooltip + format.obfuscated(tooltip_1)));
 }
-
 
 #category Tooltips
 
@@ -135,7 +136,6 @@ for bow in [
     addDamageTooltip(bow, '10 Max Ranged Damage');
 }
 
-
 #category Boss Summons
 
 addBossTooltip(<nevermine:TrollIdol>, 'Summons Smash.');
@@ -163,7 +163,6 @@ addBossTooltip(<nevermine:TreatBag>, 'Use it on the Candy Block (found on the Co
 addBossTooltip2(<nevermine:ObservingEye>, 'Use it on the Visualent Altar (found on the Observer\'s Eye structure) to summon Visualent.', 'Dropped from Visulon (rare flying Lunalus mob) with a 100% chance.');
 addBossTooltip2(<nevermine:VileStone>, 'Use it on the Voxxulon Altar (found on the Voxxulon Platform) to summon Voxxulon.', 'Crafted from Uncharged Stone on the Enigma Table (Found at the Enigma Station structure).');
 addBossTooltip2(<nevermine:AncientRing>, 'Use it on the Craexxeus Altar (found in the Craexxeus Tower) to summon Craexxeus.', 'Obtained by using Shyregem Ingot on the Ancient Altar with a 25% chance and Shyrestone with a 12.5%.');
-
 
 #category Ores
 

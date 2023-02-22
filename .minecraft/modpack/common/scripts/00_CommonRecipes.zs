@@ -6,124 +6,122 @@ import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Research;
 
 /*
-    Author: Sajeyson
+    Author: sajeyson012
 */
 
-global tinyCoal             as IItemStack = <customthings:item>;
-global tinyCharcoal         as IItemStack = <customthings:item:1>;
-global coal                 as IItemStack = <minecraft:coal>;
-global charCoal             as IItemStack = <minecraft:coal:1>;
-global cobblestone          as IItemStack = <minecraft:cobblestone>;
-global sulfurCloud          as IItemStack = <Natura:Cloud:3>;
-global stick                as IItemStack = <minecraft:stick>;
-global flint                as IItemStack = <minecraft:flint>;
-global gravel               as IItemStack = <minecraft:gravel>;
-global obsidian             as IItemStack = <minecraft:obsidian>;
-global batWing              as IItemStack = <xreliquary:mob_ingredient:5>;
-global opteryxFeather       as IItemStack = <nevermine:OpteryxFeather>;
-global stormEye             as IItemStack = <xreliquary:mob_ingredient:8>;
-global bread                as IItemStack = <minecraft:bread>;
-global dough                as IItemStack = <harvestcraft:doughItem>;
-global cake                 as IItemStack = <minecraft:cake>;
-global cookie               as IItemStack = <minecraft:cookie>;
-global cocoaPowder          as IItemStack = <harvestcraft:cocoapowderItem>;
-global ornamyte             as IItemStack = <nevermine:Ornamyte>;
-global runicBomb            as IItemStack = <nevermine:RunicBomb>;
-global airShard             as IItemStack = <Thaumcraft:ItemShard>;
-global balancedShard        as IItemStack = <Thaumcraft:ItemShard:6>;
-global enchFabric           as IItemStack = <Thaumcraft:ItemResource:7>;
-global cloud                as IItemStack = <Natura:Cloud>;
-global string_              as IItemStack = <minecraft:string>;
-global paper                as IItemStack = <minecraft:paper>;
-global cloudinaBottle       as IItemStack = <chisel:cloudinabottle>;
-global smashingRock         as IItemStack = <chisel:smashingrock>;
-global scribingTool         as IItemStack = <Thaumcraft:ItemInkwell>;
-global waterBucket          as IItemStack = <minecraft:water_bucket>;
-global lavaBucket           as IItemStack = <minecraft:lava_bucket>;
-global salisMundus          as IItemStack = <Thaumcraft:ItemResource:14>;
-global book                 as IItemStack = <minecraft:book>;
-global ghostlyStone         as IItemStack = <nevermine:GhostStone>;
-global eucadonLog           as IItemStack = <nevermine:WoodEucadon>;
-global melumiaLog           as IItemStack = <nevermine:WoodMelumia>;
-global domiguousLog         as IItemStack = <nevermine:WoodDomiguous>;
-global opolloLog            as IItemStack = <nevermine:WoodOpollo>;
-global eucadonPlanks        as IItemStack = <nevermine:planksEucadon>;
-global melumiaPlanks        as IItemStack = <nevermine:planksMelumia>;
-global domiguousPlanks      as IItemStack = <nevermine:planksDomiguous>;
-global opolloPlanks         as IItemStack = <nevermine:planksOpollo>;
-global bakeware             as IItemStack = <harvestcraft:bakewareItem>;
+val tinyCoal             as IItemStack = <customthings:item>;
+val tinyCharcoal         as IItemStack = <customthings:item:1>;
+val coal                 as IItemStack = <minecraft:coal>;
+val charCoal             as IItemStack = <minecraft:coal:1>;
+val cobblestone          as IItemStack = <minecraft:cobblestone>;
+val sulfurCloud          as IItemStack = <Natura:Cloud:3>;
+val stick                as IItemStack = <minecraft:stick>;
+val flint                as IItemStack = <minecraft:flint>;
+val gravel               as IItemStack = <minecraft:gravel>;
+val obsidian             as IItemStack = <minecraft:obsidian>;
+val batWing              as IItemStack = <xreliquary:mob_ingredient:5>;
+val opteryxFeather       as IItemStack = <nevermine:OpteryxFeather>;
+val stormEye             as IItemStack = <xreliquary:mob_ingredient:8>;
+val bread                as IItemStack = <minecraft:bread>;
+val dough                as IItemStack = <harvestcraft:doughItem>;
+val cake                 as IItemStack = <minecraft:cake>;
+val cookie               as IItemStack = <minecraft:cookie>;
+val cocoaPowder          as IItemStack = <harvestcraft:cocoapowderItem>;
+val ornamyte             as IItemStack = <nevermine:Ornamyte>;
+val runicBomb            as IItemStack = <nevermine:RunicBomb>;
+val airShard             as IItemStack = <Thaumcraft:ItemShard>;
+val balancedShard        as IItemStack = <Thaumcraft:ItemShard:6>;
+val enchFabric           as IItemStack = <Thaumcraft:ItemResource:7>;
+val cloud                as IItemStack = <Natura:Cloud>;
+val string_              as IItemStack = <minecraft:string>;
+val paper                as IItemStack = <minecraft:paper>;
+val cloudinaBottle       as IItemStack = <chisel:cloudinabottle>;
+val smashingRock         as IItemStack = <chisel:smashingrock>;
+val scribingTool         as IItemStack = <Thaumcraft:ItemInkwell>;
+val waterBucket          as IItemStack = <minecraft:water_bucket>;
+val lavaBucket           as IItemStack = <minecraft:lava_bucket>;
+val salisMundus          as IItemStack = <Thaumcraft:ItemResource:14>;
+val book                 as IItemStack = <minecraft:book>;
+val ghostlyStone         as IItemStack = <nevermine:GhostStone>;
+val eucadonLog           as IItemStack = <nevermine:WoodEucadon>;
+val melumiaLog           as IItemStack = <nevermine:WoodMelumia>;
+val domiguousLog         as IItemStack = <nevermine:WoodDomiguous>;
+val opolloLog            as IItemStack = <nevermine:WoodOpollo>;
+val eucadonPlanks        as IItemStack = <nevermine:planksEucadon>;
+val melumiaPlanks        as IItemStack = <nevermine:planksMelumia>;
+val domiguousPlanks      as IItemStack = <nevermine:planksDomiguous>;
+val opolloPlanks         as IItemStack = <nevermine:planksOpollo>;
+val bakeware             as IItemStack = <harvestcraft:bakewareItem>;
 
 
 /*
     Ingots
 */
 
-global ironIngot            as IItemStack = <minecraft:iron_ingot>;
-global goldIngot            as IItemStack = <minecraft:gold_ingot>;
-global limoniteIngot        as IItemStack = <nevermine:IngotLimonite>;
-global amethystIngot        as IItemStack = <nevermine:AmethystIngot>;
-global rositeIngot          as IItemStack = <nevermine:IngotRosite>;
-global jadeIngot            as IItemStack = <nevermine:IngotJade>;
-global sapphireIngot        as IItemStack = <nevermine:IngotSapphire>;
-global emberstoneIngot      as IItemStack = <nevermine:IngotEmberstone>;
-global mystiteIngot         as IItemStack = <nevermine:IngotMystite>;
-global skeletalIngot        as IItemStack = <nevermine:IngotSkeletal>;
-global lyonIngot            as IItemStack = <nevermine:IngotLyon>;
-global varsiumIngot         as IItemStack = <nevermine:IngotVarsium>;
-global elecaniumIngot       as IItemStack = <nevermine:IngotElecanium>;
-global baronyteIngot        as IItemStack = <nevermine:IngotBaronyte>;
-global blaziumIngot         as IItemStack = <nevermine:IngotBlazium>;
-global ghastlyIngot         as IItemStack = <nevermine:IngotGhastly>;
-global ghoulishIngot        as IItemStack = <nevermine:IngotGhoulish>;
-global lunarIngot           as IItemStack = <nevermine:IngotLunar>;
-global rustedIronIngot      as IItemStack = <nevermine:IngotRustedIron>;
-global shyrestoneIngot      as IItemStack = <nevermine:IngotShyrestone>;
-global shyregemIngot        as IItemStack = <nevermine:IngotShyregem>;
+val ironIngot            as IItemStack = <minecraft:iron_ingot>;
+val goldIngot            as IItemStack = <minecraft:gold_ingot>;
+val limoniteIngot        as IItemStack = <nevermine:IngotLimonite>;
+val amethystIngot        as IItemStack = <nevermine:AmethystIngot>;
+val rositeIngot          as IItemStack = <nevermine:IngotRosite>;
+val jadeIngot            as IItemStack = <nevermine:IngotJade>;
+val sapphireIngot        as IItemStack = <nevermine:IngotSapphire>;
+val emberstoneIngot      as IItemStack = <nevermine:IngotEmberstone>;
+val mystiteIngot         as IItemStack = <nevermine:IngotMystite>;
+val skeletalIngot        as IItemStack = <nevermine:IngotSkeletal>;
+val lyonIngot            as IItemStack = <nevermine:IngotLyon>;
+val varsiumIngot         as IItemStack = <nevermine:IngotVarsium>;
+val elecaniumIngot       as IItemStack = <nevermine:IngotElecanium>;
+val baronyteIngot        as IItemStack = <nevermine:IngotBaronyte>;
+val blaziumIngot         as IItemStack = <nevermine:IngotBlazium>;
+val ghastlyIngot         as IItemStack = <nevermine:IngotGhastly>;
+val ghoulishIngot        as IItemStack = <nevermine:IngotGhoulish>;
+val lunarIngot           as IItemStack = <nevermine:IngotLunar>;
+val rustedIronIngot      as IItemStack = <nevermine:IngotRustedIron>;
+val shyrestoneIngot      as IItemStack = <nevermine:IngotShyrestone>;
+val shyregemIngot        as IItemStack = <nevermine:IngotShyregem>;
 
 /*
     Gems
 */
 
-global diamond              as IItemStack = <minecraft:diamond>;
-global emerald              as IItemStack = <minecraft:emerald>;
-global bloodstone           as IItemStack = <nevermine:Bloodstone>;
-global crystal              as IItemStack = <nevermine:CrystalliteStone>;
+val diamond              as IItemStack = <minecraft:diamond>;
+val emerald              as IItemStack = <minecraft:emerald>;
+val bloodstone           as IItemStack = <nevermine:Bloodstone>;
+val crystal              as IItemStack = <nevermine:CrystalliteStone>;
 
 /*
     Dusts
 */
 
-global redstone             as IItemStack = <minecraft:redstone>;
-global glowstone            as IItemStack = <minecraft:glowstone_dust>;
-global gunpowder            as IItemStack = <minecraft:gunpowder>;
-global sulfur               as IItemStack = <Natura:barleyFood:4>;
+val redstone             as IItemStack = <minecraft:redstone>;
+val glowstone            as IItemStack = <minecraft:glowstone_dust>;
+val gunpowder            as IItemStack = <minecraft:gunpowder>;
+val sulfur               as IItemStack = <Natura:barleyFood:4>;
 
 /*
     Ore Dictionary stuff
 */
 
-global wool                 as IOreDictEntry = <ore:wool>;
-global cotton               as IOreDictEntry = <ore:cropCotton>;
-global milk                 as IOreDictEntry = <ore:listAllmilk>;
-global egg                  as IOreDictEntry = <ore:listAllegg>;
-global sugar                as IOreDictEntry = <ore:listAllsugar>;
-global stoneToolMaterial    as IOreDictEntry = <ore:stoneToolMaterial>;
-global anyPowerStone        as IOreDictEntry = <ore:anyPowerStone>;
+val wool                 as IOreDictEntry = <ore:wool>;
+val cotton               as IOreDictEntry = <ore:cropCotton>;
+val milk                 as IOreDictEntry = <ore:listAllmilk>;
+val egg                  as IOreDictEntry = <ore:listAllegg>;
+val sugar                as IOreDictEntry = <ore:listAllsugar>;
+val stoneToolMaterial    as IOreDictEntry = <ore:stoneToolMaterial>;
+val anyPowerStone        as IOreDictEntry = <ore:anyPowerStone>;
 
-global exchangingTome       as IItemStack = <customthings:item:2>;
-global opTorch              as IItemStack = <xreliquary:interdiction_torch>;
-global magnumTorch          as IItemStack = <ExtraUtilities:magnumTorch>;
-global destructionCatalyst  as IItemStack = <xreliquary:destruction_catalyst>;
-global angelicFeather       as IItemStack = <xreliquary:angelic_feather>;
-global travellersBoots      as IItemStack = <Thaumcraft:BootsTraveller>;
-global longFallBoot         as IItemStack = <PortalGun:LongFallBoot>;
-global longFallBoots        as IItemStack = <PortalGun:LongFallBoots>;
-global nameTag              as IItemStack = <minecraft:name_tag>;
-global toaster              as IItemStack = <cookingbook:toaster>;
+val exchangingTome       as IItemStack = <customthings:item:2>;
+val opTorch              as IItemStack = <xreliquary:interdiction_torch>;
+val magnumTorch          as IItemStack = <ExtraUtilities:magnumTorch>;
+val destructionCatalyst  as IItemStack = <xreliquary:destruction_catalyst>;
+val angelicFeather       as IItemStack = <xreliquary:angelic_feather>;
+val travellersBoots      as IItemStack = <Thaumcraft:BootsTraveller>;
+val longFallBoot         as IItemStack = <PortalGun:LongFallBoot>;
+val longFallBoots        as IItemStack = <PortalGun:LongFallBoots>;
+val nameTag              as IItemStack = <minecraft:name_tag>;
+val toaster              as IItemStack = <cookingbook:toaster>;
 
-/*
-    Functions
-*/
+#category Functions
 
 function addShaped(output as IItemStack, input as IIngredient[][]) as void {
     recipes.addShaped(output, input);
@@ -173,30 +171,17 @@ function removeInfusion(items as IItemStack[]) as void {
 }
 
 function addTomeExchange(item as IItemStack, cost as byte) as void {
-    var tome = exchangingTome.reuse();
-    if (cost == 1) {
-        recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone]);
-    }
-    if (cost == 2) {
-        recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone]);
-    }
-    if (cost == 3) {
-        recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone]);
-    }
-    if (cost == 4) {
-        recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone]);
-    }
-    if (cost == 5) {
-        recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone]);
-    }
-    if (cost == 6) {
-        recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone]);
-    }
+    val tome = <customthings:item:2>.reuse();
+    val anyPowerStone = <ore:anyPowerStone>;
+    if (cost == 1) recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone]);
+    if (cost == 2) recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone]);
+    if (cost == 3) recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone]);
+    if (cost == 4) recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone]);
+    if (cost == 5) recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone]);
+    if (cost == 6) recipes.addShapeless(item, [item * 0.5, tome, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone, anyPowerStone]);
 }
 
-/*
-    Removing stuff
-*/
+#category Removing Recipes
 
 remove([
     bread,
@@ -265,9 +250,7 @@ removeFurnace([bread, salisMundus]);
 
 removeInfusion([travellersBoots]);
 
-/*
-    Crafting Table recipes
-*/
+#category Crafting Table
 
 addShaped(stick * 16, [
     [<ore:logWood>],
@@ -313,10 +296,6 @@ addShaped(charCoal, [
 
 addShapeless(gunpowder * 3, [sulfur, coal]);
 addShapeless(sulfur * 4, [sulfurCloud]);
-
-for flower in [<nevermine:mellians>, <nevermine:pertonias>] as IItemStack[] {
-    addShapeless(<minecraft:dye:13>, [flower]);
-}
 
 addShaped(longFallBoots, [
     [angelicFeather, null, angelicFeather],
@@ -389,10 +368,10 @@ addShapeless(eucadonPlanks * 4, [eucadonLog]);
 addShapeless(melumiaPlanks * 4, [melumiaLog]);
 addShapeless(domiguousPlanks * 4, [domiguousLog]);
 addShapeless(opolloPlanks * 4, [opolloLog]);
+addShapeless(<minecraft:dye:13>, [<nevermine:mellians>]);
+addShapeless(<minecraft:dye:13>, [<nevermine:pertonias>]);
 
-/*
-    Furnace recipes
-*/
+#category Furnace
 
 addFurnace(salisMundus * 3, balancedShard, 0.5);
 
@@ -400,17 +379,11 @@ addFurnace(bread, dough, 0.3);
 
 addFurnace(<minecraft:dye:14>, <nevermine:AncientCactus>, 0.1);
 
-/*
-    Thaumcraft recipes
-*/
+#category Thaumcraft
 
-for item in <ore:listAllfishraw>.items as IItemStack[] {
-    addInfusion("BOOTSTRAVELLER", <nevermine:SpeedBoots>, [enchFabric, enchFabric, airShard, airShard, item, opteryxFeather], "volatus 25, iter 25, tutamen 12", travellersBoots, 1);
-}
+addInfusion('BOOTSTRAVELLER', <nevermine:SpeedBoots>, [enchFabric, enchFabric, airShard, airShard, <ore:listAllfishraw>.firstItem, opteryxFeather], 'volatus 25, iter 25, tutamen 12', travellersBoots, 1);
 
-/*
-    Exchanging Tome recipes
-*/
+#category Exchanging Tome
 
 addTomeExchange(ironIngot * 8, 1);
 addTomeExchange(goldIngot * 5, 1);
