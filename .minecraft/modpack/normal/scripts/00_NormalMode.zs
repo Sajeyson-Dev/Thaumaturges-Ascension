@@ -6,90 +6,88 @@ import mods.thaumcraft.Infusion;
 import mods.thaumcraft.Research;
 
 /*
-    Author: Sajeyson
+    Author: sajeyson012
 */
 
-print("Loading Normal Mode...");
+logger.logInfo('Loading Normal Mode...');
 
-var angelRingResearch           = "ANGEL_RING";
-var bloodAccumulatorResearch    = "BLOOD_ACCUMULATOR";
-var goldenBagResesrch           = "GOLDEN_BAG";
-var infusionBlueprintResearch   = "INFUSION_BLUEPRINT";
-var minersRingResearch          = "MINERS_RING";
-var portalGunResearch           = "PORTAL_GUN";
-var runeResearch                = "RUNES";
-var unstableIngotResearch       = "UNSTABLE_INGOT";
-var unstableNuggetResearch      = "UNSTABLE_NUGGET";
-var stableIngotResearch         = "STABLE_INGOT";
+val angelRingResearch           as string = 'ANGEL_RING';
+val bloodAccumulatorResearch    as string = 'BLOOD_ACCUMULATOR';
+val goldenBagResesrch           as string = 'GOLDEN_BAG';
+val infusionBlueprintResearch   as string = 'INFUSION_BLUEPRINT';
+val minersRingResearch          as string = 'MINERS_RING';
+val portalGunResearch           as string = 'PORTAL_GUN';
+val runeResearch                as string = 'RUNES';
+val unstableIngotResearch       as string = 'UNSTABLE_INGOT';
+val unstableNuggetResearch      as string = 'UNSTABLE_NUGGET';
+val stableIngotResearch         as string = 'STABLE_INGOT';
 
-var voidMetal                   = <Thaumcraft:ItemResource:16>;
-var ringBase                    = <Thaumcraft:ItemBaubleBlanks:1>;
-var shyreIngot                  = <nevermine:IngotShyrestone>;
-var angelicFeather              = <xreliquary:angelic_feather>;
-var harness                     = <Thaumcraft:HoverHarness>;
-var glass                       = <minecraft:glass>;
-var feather                     = <minecraft:feather>;
-var purpleDye                   = <minecraft:dye:5>;
-var pinkDye                     = <minecraft:dye:9>;
-var leather                     = <minecraft:leather>;
-var goldNugget                  = <minecraft:gold_nugget>;
-var rosite                      = <nevermine:IngotRosite>;
-var enchFabric                  = <Thaumcraft:ItemResource:7>;
-var thaumium                    = <Thaumcraft:ItemResource:2>;
-var goldBlock                   = <minecraft:gold_block>;
-var goldChest                   = <IronChest:BlockIronChest:1>;
-var ancientRock                 = <nevermine:ancientRock>;
-var amethystIngot               = <nevermine:AmethystIngot>;
-var infusionStone               = <nevermine:iStoneGlistening>;
-var portalGun                   = <PortalGun:PortalGunBlue>;
-var portalSpawner               = <PortalGun:PortalGunSpawner>;
-var focus                       = <Thaumcraft:FocusPortableHole>;
-var enderDust                   = <PortalGun:EnderPearlDust>;
-var voidNugget                  = <Thaumcraft:ItemNugget:7>;
-var ironIngot                   = <minecraft:iron_ingot>;
-var diamond                     = <minecraft:diamond>;
-var obsidian                    = <minecraft:obsidian>;
-var jade                        = <nevermine:IngotJade>;
-var amethyst                    = <nevermine:AmethystIngot>;
-var thaumiumNugget              = <Thaumcraft:ItemNugget:6>;
-var sigil                       = <ExtraUtilities:divisionSigil>;
+val voidMetal                   as IItemStack = <Thaumcraft:ItemResource:16>;
+val ringBase                    as IItemStack = <Thaumcraft:ItemBaubleBlanks:1>;
+val shyreIngot                  as IItemStack = <nevermine:IngotShyrestone>;
+val angelicFeather              as IItemStack = <xreliquary:angelic_feather>;
+val harness                     as IItemStack = <Thaumcraft:HoverHarness>;
+val glass                       as IItemStack = <minecraft:glass>;
+val feather                     as IItemStack = <minecraft:feather>;
+val purpleDye                   as IItemStack = <minecraft:dye:5>;
+val pinkDye                     as IItemStack = <minecraft:dye:9>;
+val leather                     as IItemStack = <minecraft:leather>;
+val goldNugget                  as IItemStack = <minecraft:gold_nugget>;
+val rosite                      as IItemStack = <nevermine:IngotRosite>;
+val enchFabric                  as IItemStack = <Thaumcraft:ItemResource:7>;
+val thaumium                    as IItemStack = <Thaumcraft:ItemResource:2>;
+val goldBlock                   as IItemStack = <minecraft:gold_block>;
+val goldChest                   as IItemStack = <IronChest:BlockIronChest:1>;
+val ancientRock                 as IItemStack = <nevermine:ancientRock>;
+val amethystIngot               as IItemStack = <nevermine:AmethystIngot>;
+val infusionStone               as IItemStack = <nevermine:iStoneGlistening>;
+val portalGun                   as IItemStack = <PortalGun:PortalGunBlue>;
+val portalSpawner               as IItemStack = <PortalGun:PortalGunSpawner>;
+val focus                       as IItemStack = <Thaumcraft:FocusPortableHole>;
+val enderDust                   as IItemStack = <PortalGun:EnderPearlDust>;
+val voidNugget                  as IItemStack = <Thaumcraft:ItemNugget:7>;
+val ironIngot                   as IItemStack = <minecraft:iron_ingot>;
+val diamond                     as IItemStack = <minecraft:diamond>;
+val obsidian                    as IItemStack = <minecraft:obsidian>;
+val jade                        as IItemStack = <nevermine:IngotJade>;
+val amethyst                    as IItemStack = <nevermine:AmethystIngot>;
+val thaumiumNugget              as IItemStack = <Thaumcraft:ItemNugget:6>;
+val sigil                       as IItemStack = <ExtraUtilities:divisionSigil>;
 
-var ringType_1                  = <ExtraUtilities:angelRing>;
-var ringType_2                  = <ExtraUtilities:angelRing:1>;
-var ringType_3                  = <ExtraUtilities:angelRing:2>;
-var ringType_4                  = <ExtraUtilities:angelRing:3>;
-var ringType_5                  = <ExtraUtilities:angelRing:4>;
-var bloodAccumulator            = <nevermine:BloodAccumulator>;
-var goldenBag                   = <ExtraUtilities:golden_bag>;
-var infusionBlueprint           = <nevermine:InfusionBlueprint>;
-var minersRing                  = <Baubles:Ring>;
-var blackHole                   = <PortalGun:MiniBlackHole>;
-var runeOfReality               = <nevermine:CarvedRune1>;
-var runeOfTravel                = <nevermine:CarvedRune2>;
-var runeOfPower                 = <nevermine:CarvedRune4>;
-var runeOfSpace                 = <nevermine:CarvedRune3>;
-var runeOfDirection             = <nevermine:CarvedRune6>;
-var unstableIngot               = <ExtraUtilities:unstableingot>;
-var unstableNugget              = <ExtraUtilities:unstableingot:1>;
-var stableIngot                 = <ExtraUtilities:unstableingot:2>;
+val angelRing1                  as IItemStack = <ExtraUtilities:angelRing>;
+val angelRing2                  as IItemStack = <ExtraUtilities:angelRing:1>;
+val angelRing3                  as IItemStack = <ExtraUtilities:angelRing:2>;
+val angelRing4                  as IItemStack = <ExtraUtilities:angelRing:3>;
+val angelRing5                  as IItemStack = <ExtraUtilities:angelRing:4>;
+val bloodAccumulator            as IItemStack = <nevermine:BloodAccumulator>;
+val goldenBag                   as IItemStack = <ExtraUtilities:golden_bag>;
+val infusionBlueprint           as IItemStack = <nevermine:InfusionBlueprint>;
+val minersRing                  as IItemStack = <Baubles:Ring>;
+val blackHole                   as IItemStack = <PortalGun:MiniBlackHole>;
+val runeOfReality               as IItemStack = <nevermine:CarvedRune1>;
+val runeOfTravel                as IItemStack = <nevermine:CarvedRune2>;
+val runeOfPower                 as IItemStack = <nevermine:CarvedRune4>;
+val runeOfSpace                 as IItemStack = <nevermine:CarvedRune3>;
+val runeOfDirection             as IItemStack = <nevermine:CarvedRune6>;
+val unstableIngot               as IItemStack = <ExtraUtilities:unstableingot>;
+val unstableNugget              as IItemStack = <ExtraUtilities:unstableingot:1>;
+val stableIngot                 as IItemStack = <ExtraUtilities:unstableingot:2>;
 
-var anyPowerStone               = <ore:anyPowerStone>;
+val anyPowerStone               as IOreDictEntry = <ore:anyPowerStone>;
 
-var angelRingAspects            = "aer 63, ordo 63, terra 20";
-var bloodAccumulatorAspects     = "aer 24, aqua 24, ordo 24";
-var goldenBagAspects            = "aer 24, ordo 20";
-var infusionBlueprintAspects    = "aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20";
-var minersRingAspects           = "ordo 32, perditio 16";
-var portalGunAspects            = "perditio 12, vacuos 14, iter 16, tenebrae 14, alienis 16, praecantatio 16";
-var runeAspects                 = "aer 3, terra 3, ignis 3, aqua 3, ordo 3, perditio 3";
-var runeAspects_2               = "aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5";
-var unstableIngotAspects        = "perditio 8, terra 4, ordo 4";
-var unstableNuggetAspects       = "perditio 1, terra 1, ordo 1";
-var stableIngotAspects          = "metallum 10, ordo 10";
+val angelRingAspects            as string = 'aer 63, ordo 63, terra 20';
+val bloodAccumulatorAspects     as string = 'aer 24, aqua 24, ordo 24';
+val goldenBagAspects            as string = 'aer 24, ordo 20';
+val infusionBlueprintAspects    as string = 'aer 20, terra 20, ignis 20, aqua 20, ordo 20, perditio 20';
+val minersRingAspects           as string = 'ordo 32, perditio 16';
+val portalGunAspects            as string = 'perditio 12, vacuos 14, iter 16, tenebrae 14, alienis 16, praecantatio 16';
+val runeAspects                 as string = 'aer 3, terra 3, ignis 3, aqua 3, ordo 3, perditio 3';
+val runeAspects_2               as string = 'aer 5, terra 5, ignis 5, aqua 5, ordo 5, perditio 5';
+val unstableIngotAspects        as string = 'perditio 8, terra 4, ordo 4';
+val unstableNuggetAspects       as string = 'perditio 1, terra 1, ordo 1';
+val stableIngotAspects          as string = 'metallum 10, ordo 10';
 
-/*
-    Functions
-*/
+#category Functions
 
 function addShaped(output as IItemStack, input as IIngredient[][]) as void {
     recipes.addShaped(output, input);
@@ -129,9 +127,7 @@ function removeInfusion(items as IItemStack[]) as void {
     }
 }
 
-/*
-    Removing Stuff
-*/
+#category Removing Stuff
 
 remove([
     bloodAccumulator,
@@ -142,61 +138,59 @@ remove([
     portalGun,
     runeOfPower,
     unstableIngot,
-    unstableNugget
+    unstableNugget,
+    angelRing1,
+    angelRing2,
+    angelRing3,
+    angelRing4,
+    angelRing5
 ]);
 
-/*
-    Angel Rings
-*/
+#category Adding Stuff
 
 for ring in [
-    ringType_1,
-    ringType_2,
-    ringType_3,
-    ringType_4,
-    ringType_5
+    angelRing1,
+    angelRing2,
+    angelRing3,
+    angelRing4,
+    angelRing5
 ] as IItemStack[] {
-    remove([ring]);
-    addShapeless(ringType_1, [ring, glass, glass]);
-    addShapeless(ringType_2, [ring, feather, feather]);
-    addShapeless(ringType_3, [ring, purpleDye, pinkDye]);
-    addShapeless(ringType_4, [ring, leather, leather]);
-    addShapeless(ringType_5, [ring, goldNugget, goldNugget]);
+    addShapeless(angelRing1, [ring, glass, glass]);
+    addShapeless(angelRing2, [ring, feather, feather]);
+    addShapeless(angelRing3, [ring, purpleDye, pinkDye]);
+    addShapeless(angelRing4, [ring, leather, leather]);
+    addShapeless(angelRing5, [ring, goldNugget, goldNugget]);
 }
 
-addShapedArcane(angelRingResearch, ringType_1, angelRingAspects, [
+addShapedArcane(angelRingResearch, angelRing1, angelRingAspects, [
     [glass, harness, glass],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-addShapedArcane(angelRingResearch, ringType_2, angelRingAspects, [
+addShapedArcane(angelRingResearch, angelRing2, angelRingAspects, [
     [feather, harness, feather],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-addShapedArcane(angelRingResearch, ringType_3, angelRingAspects, [
+addShapedArcane(angelRingResearch, angelRing3, angelRingAspects, [
     [purpleDye, harness, pinkDye],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-addShapedArcane(angelRingResearch, ringType_4, angelRingAspects, [
+addShapedArcane(angelRingResearch, angelRing4, angelRingAspects, [
     [leather, harness, leather],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
 
-addShapedArcane(angelRingResearch, ringType_5, angelRingAspects, [
+addShapedArcane(angelRingResearch, angelRing5, angelRingAspects, [
     [goldNugget, harness, goldNugget],
     [angelicFeather, ringBase, angelicFeather],
     [voidMetal, unstableIngot, shyreIngot]
 ]);
-
-/*
-    Blood Accumulator
-*/
 
 addShapedArcane(bloodAccumulatorResearch, bloodAccumulator, bloodAccumulatorAspects, [
     [leather, null, leather],
@@ -204,19 +198,11 @@ addShapedArcane(bloodAccumulatorResearch, bloodAccumulator, bloodAccumulatorAspe
     [leather, leather, leather]
 ]);
 
-/*
-    Golden Bag of Holding
-*/
-
 addShapedArcane(goldenBagResesrch, goldenBag, goldenBagAspects, [
     [enchFabric, thaumium, enchFabric],
     [enchFabric, goldChest, enchFabric],
     [enchFabric, goldBlock, enchFabric]
 ]);
-
-/*
-    Infusion Blueprint
-*/
 
 addShapedArcane(infusionBlueprintResearch, infusionBlueprint, infusionBlueprintAspects, [
     [ancientRock, amethystIngot, ancientRock],
@@ -224,35 +210,9 @@ addShapedArcane(infusionBlueprintResearch, infusionBlueprint, infusionBlueprintA
     [ancientRock, thaumium, ancientRock]
 ]);
 
-/*
-    Miner's Ring
-*/
-
 addShapelessArcane(minersRingResearch, minersRing, minersRingAspects, [ringBase, anyPowerStone]);
 
-/*
-    Portal Gun
-*/
-
-addInfusion(portalGunResearch, focus, [voidNugget, voidNugget, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust], 
-    portalGunAspects, blackHole, 4);
-
-// CraftTweaker, Thaumcraft and PortalGun are friend-ish now...
-addShaped(portalSpawner, [
-    [ironIngot, null, ironIngot],
-    [diamond, blackHole, diamond],
-    [ironIngot, null, ironIngot]
-]);
-
-addShaped(portalGun, [
-    [obsidian, ironIngot, ironIngot],
-    [diamond, blackHole, ironIngot],
-    [ironIngot, obsidian, ironIngot]
-]);
-
-/*
-    Runes
-*/
+addInfusion(portalGunResearch, focus, [voidNugget, voidNugget, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust, enderDust], portalGunAspects, blackHole, 4);
 
 addShapedArcane(runeResearch, runeOfReality, runeAspects, [
     [ancientRock, null, ancientRock],
@@ -284,12 +244,20 @@ addShapedArcane(runeResearch, runeOfDirection, runeAspects, [
     [ancientRock, null, ancientRock]
 ]);
 
-/*
-    Unstable Ingots
-*/
-
 addShapelessArcane(unstableIngotResearch, unstableIngot, unstableIngotAspects, [sigil, thaumium, diamond]);
 addShapelessArcane(unstableNuggetResearch, unstableNugget, unstableNuggetAspects, [sigil, thaumiumNugget, diamond]);
 
-addInfusion(stableIngotResearch, thaumium, [unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget],
-    stableIngotAspects, stableIngot, 1);
+addInfusion(stableIngotResearch, thaumium, [unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget, unstableNugget], stableIngotAspects, stableIngot, 1);
+
+// CraftTweaker, Thaumcraft and PortalGun are friend-ish now...
+addShaped(portalSpawner, [
+    [ironIngot, null, ironIngot],
+    [diamond, blackHole, diamond],
+    [ironIngot, null, ironIngot]
+]);
+
+addShaped(portalGun, [
+    [obsidian, ironIngot, ironIngot],
+    [diamond, blackHole, ironIngot],
+    [ironIngot, obsidian, ironIngot]
+]);

@@ -1,6 +1,10 @@
 import mods.thaumcraft.Loot;
 import minetweaker.item.IItemStack;
 
+/*
+    Author: sajeyson012
+*/
+
 function addCommon(items as IItemStack[], weight as int) as void {
     for item in items {
         Loot.addCommonLoot(item, weight);

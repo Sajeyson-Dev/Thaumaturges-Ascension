@@ -2,7 +2,7 @@ import minetweaker.item.IItemStack;
 import mods.chisel.Groups;
 
 /*
-    Author: Sajeyson
+    Author: sajeyson012
 */
 
 for stone in [
@@ -31,5 +31,5 @@ for stone in [
 }
 
 for item in [<chisel:stone_snakestone:1>, <chisel:stone_snakestone:13>] as IItemStack[] {
-    Groups.addVariation("stonebricksmooth", item);
+    Groups.addVariation('stonebricksmooth', item);
 }

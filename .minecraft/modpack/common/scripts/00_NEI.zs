@@ -2,7 +2,7 @@ import mods.nei.NEI;
 import minetweaker.item.IItemStack;
 
 /*
-    Author: Sajeyson
+    Author: sajeyson012
 */
 
 function hide(items as IItemStack[]) as void {

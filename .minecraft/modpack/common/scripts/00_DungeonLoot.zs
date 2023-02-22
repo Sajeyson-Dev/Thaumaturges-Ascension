@@ -1,31 +1,29 @@
 import minetweaker.item.IItemStack;
 
 /*
-    Author: Sajeyson
+    Author: sajeyson012
 */
 
-var bonus               = "bonusChest";
-var dungeon             = "dungeonChest";
-var mineshaft           = "mineshaftCorridor";
-var pyramid             = "pyramidDesertyChest";
-var temple              = "pyramidJungleChest";
-var strongholdCorridor  = "strongholdCorridor";
-var strongholdCrossing  = "strongholdCrossing";
-var strongholdLibrary   = "strongholdLibrary";
-var village             = "villageBlacksmith";
+val bonus               as string = 'bonusChest';
+val dungeon             as string = 'dungeonChest';
+val mineshaft           as string = 'mineshaftCorridor';
+val pyramid             as string = 'pyramidDesertyChest';
+val temple              as string = 'pyramidJungleChest';
+val strongholdCorridor  as string = 'strongholdCorridor';
+val strongholdCrossing  as string = 'strongholdCrossing';
+val strongholdLibrary   as string = 'strongholdLibrary';
+val village             as string = 'villageBlacksmith';
 
-/*
-	Loot tables.
-*/
+#category Loot Tables
 
-var runes as IItemStack[] = [
+val runes as IItemStack[] = [
 	<nevermine:CarvedRune1>, 
 	<nevermine:CarvedRune2>, 
 	<nevermine:CarvedRune3>, 
 	<nevermine:CarvedRune6>
 ];
 
-var shards as IItemStack[] = [
+val shards as IItemStack[] = [
 	<Thaumcraft:ItemShard>, 
 	<Thaumcraft:ItemShard:1>, 
 	<Thaumcraft:ItemShard:2>, 

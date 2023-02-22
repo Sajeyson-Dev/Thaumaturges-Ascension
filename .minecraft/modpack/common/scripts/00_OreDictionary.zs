@@ -2,7 +2,7 @@ import minetweaker.item.IItemStack;
 import minetweaker.oredict.IOreDictEntry;
 
 /*
-    Author: Sajeyson
+    Author: sajeyson012
 */
 
 <ore:cropBarley>.add(<Natura:barleyFood>);
