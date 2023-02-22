@@ -7,20 +7,20 @@
                     "walls": {
                         "type": "METABLOCK",
                         "data": {
-                            "name": "Natura:planks",
-                            "meta": 10
+                            "name": "nevermine:brick_7"
                         }
                     },
                     "pillar": {
                         "type": "METABLOCK",
                         "data": {
-                            "name": "Natura:willow"
+                            "name": "ExtraUtilities:colorStoneBrick",
+                            "meta": 7
                         }
                     },
                     "stair": {
                         "type": "METABLOCK",
                         "data": {
-                            "name": "Natura:stair.willow"
+                            "name": "nevermine:sbrick_7"
                         }
                     },
                     "floor": {
@@ -34,20 +34,21 @@
                     "walls": {
                         "type": "METABLOCK",
                         "data": {
-                            "name": "ExtraUtilities:colorStoneBrick",
-                            "meta": 13
+                            "name": "ExtraUtilities:color_brick",
+                            "meta": 9
                         }
                     },
                     "pillar": {
                         "type": "METABLOCK",
                         "data": {
-                            "name": "Natura:willow"
+                            "name": "ExtraUtilities:colorStoneBrick",
+                            "meta": 7
                         }
                     },
                     "stair": {
                         "type": "METABLOCK",
                         "data": {
-                            "name": "Natura:stair.willow"
+                            "name": "nevermine:sbrick_7"
                         }
                     }
                 }

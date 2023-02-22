@@ -1,26 +1,26 @@
 {
     "name": "tower",
     "tower": {
-        "type": "WITCH",
+        "type": "ROGUE",
         "theme": {
             "primary": {
                 "walls": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "Natura:planks",
-                        "meta": 10
+                        "name": "nevermine:brick_7"
                     }
                 },
                 "pillar": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "Natura:willow"
+                        "name": "ExtraUtilities:colorStoneBrick",
+                        "meta": 7
                     }
                 },
                 "stair": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "Natura:stair.willow"
+                        "name":"nevermine:sbrick_7"
                     }
                 }
             },
@@ -28,20 +28,20 @@
                 "walls": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "Thaumcraft:blockWoodenDevice",
-                        "meta": 6
+                        "name": "nevermine:brick_7"
                     }
                 },
                 "pillar": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "Natura:willow"
+                        "name": "ExtraUtilities:colorStoneBrick",
+                        "meta": 7
                     }
                 },
                 "stair": {
                     "type": "METABLOCK",
                     "data": {
-                        "name": "Natura:stair.willow"
+                        "name": "nevermine:sbrick_7"
                     }
                 }
             }
