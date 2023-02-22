@@ -22,4 +22,4 @@ Some info about Pixons.
 §2Radiant §r- §572
 §2Blooming §r- §581
 
-§3To use Diamond Bowl on the Pixon make you have 10 levels more than the normal requirement (see above).
+§3To use Diamond Bowl on the Pixon make sure you have 10 levels more than the normal requirement (see above).
