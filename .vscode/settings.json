@@ -1,4 +1,13 @@
 {
     "debug.internalConsoleOptions": "neverOpen",
-    "debug.openDebug": "neverOpen"
+    "debug.openDebug": "neverOpen",
+    "zenscriptSupport.scriptFolders": [
+        ".minecraft/modpack/common",
+        ".minecraft/modpack/normal",
+        ".minecraft/modpack/hard",
+        ".minecraft/modpack/expert",
+    ],
+    "files.associations": {
+        "*.zs": "zenscript.crafttweaker"
+    }
 }
