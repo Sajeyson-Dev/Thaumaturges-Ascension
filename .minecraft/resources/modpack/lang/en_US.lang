@@ -81,6 +81,7 @@ tile.blockCosmeticDoubleSlabWood.name=Wooden Slab
 tile.sandstone.16.desc=Just a block
 tile.sandstone.17.desc=Just a block
 tile.cookingbook:toaster.name=Toaster
+item.cookingbook:toast.name=Toast
 cookingbook:toaster.tooltipDesc=Place the bread in and shift right-click to start toasting!
 
 entity.nevermine.Luxocron.name=Luxocron
