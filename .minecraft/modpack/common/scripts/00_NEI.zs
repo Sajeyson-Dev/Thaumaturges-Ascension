@@ -17,7 +17,6 @@ hide([
     <ExtraUtilities:microblocks>,
     <PortalGun:Portal_BlockPortal>,
     <PortalGun:Portal_BlockMulti>,
-    <cookingbook:toast>,
     <harvestcraft:ovenon>,
     <harvestcraft:churnon>,
     <harvestcraft:quernon>,

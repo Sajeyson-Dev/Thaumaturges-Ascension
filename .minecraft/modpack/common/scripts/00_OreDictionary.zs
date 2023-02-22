@@ -8,6 +8,7 @@ import minetweaker.oredict.IOreDictEntry;
 <ore:cropBarley>.add(<Natura:barleyFood>);
 <ore:listAllgrain>.add(<Natura:barleyFood>);
 <ore:cropCotton>.add(<Natura:barleyFood:3>);
+<ore:foodToast>.add(<cookingbook:toast>);
 
 for stoneMaterial in [
     <chisel:andesite>,
