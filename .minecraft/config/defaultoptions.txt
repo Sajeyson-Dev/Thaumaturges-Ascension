@@ -100,15 +100,20 @@ key_key.skillnameleft:203
 key_key.skillnameright:205
 key_key.lognot:45
 key_key.exped:200
+key_key.betterquesting.quests:24
 key_cos.key.openCosArmorInventory:0
-key_key.betterquesting.quests:41
-key_openblocks.keybind.vario_switch:47
+key_itemscroller.desc.toggledisable:0
+key_itemscroller.desc.recipe:0
+key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_oreexcavation.key.excavate:41
+key_oreexcavation.key.shape:47
 key_Baubles Inventory:0
 key_Change Wand Focus:33
 key_Activate Hover Harness:35
 key_Misc Wand Toggle:34
+key_key.toggleCleanView:0
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.balance:0
 key_key.craftingtweaks.clear:0
