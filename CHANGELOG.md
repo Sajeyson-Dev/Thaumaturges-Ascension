@@ -1,4 +1,16 @@
->## **Thaumaturge's Ascension - Warrior's Path Update: 1.0.8-release.**
+## **Thaumaturge's Ascension: 1.1-release.**
+### **Added**
+- #### Added Mods
+  - Ore Excavation
+  - Item Scroller
+  - CraftTweaker Linter
+
+### **Changes**
+- Scripts improvements.
+- Updated tower and first level themes for the Roulike Dungeons.
+- Removed some useless mods.
+
+## **Thaumaturge's Ascension - Warrior's Path Update: 1.0.8-release.**
 ### **Added**
 - Added Quests with a custom reward crate.
 - Added two phased boss Ancient Thaumaturge. Can be spawned by releasing more than 100 xp from the Braing in a Jar on the Skull Block.
@@ -23,7 +35,7 @@
 - Disabled Baby Zombies.
 - Disabled Alkahest Tome (replaced with Exchanging Tome).
 - Increaced Wither's health to 500.
-- Incraaced Ender Dragon's health to 400 and damage to 15.
+- Incraced Ender Dragon's health to 400 and damage to 15.
 - Luggage now have 1 health with increased speed.
 - Changed Roguelike Dungeons tower style.
 - Rare crops no longer can be found in Village Greenhouses.
@@ -49,22 +61,22 @@
 - Total lines of scripts (all time): 8313 (CraftTweaker, Mob Properties, Block Properties and Roguelike Dungeons).
 - Total dev time (this version): 4 days, 7 hours and 22 minutes.
 
->## **Thaumaturge's Ascension: 1.0.6-release.**
+## **Thaumaturge's Ascension: 1.0.6-release.**
 ### **Fixes**
 - Fixed Roguelike Dungeon custom settings not working because the CurseForge app cannot copy files whose names starts with a dot.
 
->## **Thaumaturge's Ascension: 1.0.5-release.**
+## **Thaumaturge's Ascension: 1.0.5-release.**
 ### **Changes**
 - Removed Reincarnating Golden Bag recipe, because bug.
  
 ### **Fixes**
 - Fixed missing Durability Enhancer info inside Infusion guide.
 
->## **Thaumaturge's Ascension: 1.0.4-release.**
+## **Thaumaturge's Ascension: 1.0.4-release.**
 ### **Fixes**
 - Advent of Ascension bows not working properly.
 
->## **Thaumaturge's Ascension: 1.0.3-release.**
+## **Thaumaturge's Ascension: 1.0.3-release.**
 ### **Changes**
 - Removed unused Enchantments ID's from scripts.
 - Some scripts improvements.
@@ -72,7 +84,7 @@
 ### **Fixes**
 - Fixed broken 1.0.2 export.
 
->## **Thaumaturge's Ascension: 1.0.2-release.**
+## **Thaumaturge's Ascension: 1.0.2-release.**
 ### **Added**
 - #### Added Mods
   - AgriCraft.
@@ -122,7 +134,7 @@
 - Fixed Chunk Loaders craftable into microblock.
 - Fixed Flour from Natura is craftable.
 
->## **Thaumaturge's Ascension: 1.0.1-release.**
+## **Thaumaturge's Ascension: 1.0.1-release.**
 ### **Added**
 - Added aspects for Pam's HarverstCraft candles.
 - Added Stone tools and furnace recipes from other Overworld stone types.
@@ -133,6 +145,6 @@
 ### **Fixes**
 - FIxed Barley from Natura is unusable.
 
->## **Thaumaturge's Ascension: 1.0.0-release.**
+## **Thaumaturge's Ascension: 1.0.0-release.**
 - First release.
  
