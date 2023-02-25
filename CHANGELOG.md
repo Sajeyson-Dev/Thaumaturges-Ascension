@@ -8,6 +8,7 @@
 ### **Changes**
 - Scripts improvements.
 - Updated tower and first level themes for the Roulike Dungeons.
+- Fixed toast
 - Removed some useless mods.
 
 ## **Thaumaturge's Ascension - Warrior's Path Update: 1.0.8-release.**
