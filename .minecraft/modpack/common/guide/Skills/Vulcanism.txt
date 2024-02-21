@@ -1,9 +1,0 @@
-§3Ability:
-- Dealing true damage.
-
-§3Getting Vulcanism XP:
-- When the player is attacked, with a chance, the Vulcanism icon may appear for a short time right next to the rage bar. That means the player can use Vulcane and deal a certain amount of true damage to the last attacker. Vulcane's damage depends on the skill level.
-
-§3A few notes: 
-- §2§oTo obtain Vulcane you need to visit Immortalis dimension.
-- §2§oTrue damage means that damage cannot be reduced by armor or any other way.

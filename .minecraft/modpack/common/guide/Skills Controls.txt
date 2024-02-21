@@ -1,3 +1,0 @@
-§3'I' §r- §2Open Skills.
-§3'Arrow UP' §r- §2Change Expedition ability.
-§3'Arrow LEFT | Arrow RIGHT' §r- §2Toggle Skill name.

@@ -1,5 +1,0 @@
-§3Ability:
-- Allows the player to use tablets.
-
-§3Getting Anima XP:
-- XP gained from collecting Anima Stones, which are dropped with a 10% chance when breaking plants and Overworld plant type mobs.

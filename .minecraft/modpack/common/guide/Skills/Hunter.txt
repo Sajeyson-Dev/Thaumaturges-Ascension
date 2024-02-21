@@ -1,8 +1,0 @@
-§3Ability:
-- Unlocks the ability to damage hunter mobs.
-
-§3Getting Hunter XP:
-- Simply killing hunter mobs will give the player hunter XP. Higher hunter level mobs will give more XP when killed, except Crusilisk.
-- Bosses can provide Hunter XP as well.
-
-§3Note: §2§oHunter mobs have an icon with two swords above the head.
